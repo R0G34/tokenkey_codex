@@ -8,33 +8,63 @@ This project has been initialized with `yarn create next-app`.
 
 # Configuration
 
-1. Install [nvm](https://github.com/nvm-sh/nvm) if you don't have it.
+> ℹ️ This is a **Next.js/Node.js** project. You do **not** need a Python virtual environment (`venv`) to run it.
+> If you already created one, you can ignore/deactivate it and continue with one of the options below.
 
-2. Ensure you're using the node version used in production. From the root directory of the repo, execute the following command:
+## Option A: run locally (installing tools on your PC)
+
+You only need Node/Bun tooling (not Python tooling):
+
+1. Install [nvm](https://github.com/nvm-sh/nvm) if you don't have it.
+2. Use the project Node version:
 
 ```bash
 nvm use
 ```
 
-3. The project is configured to run only with the package manager [yarn](https://yarnpkg.com/getting-started/install).
-
-4. Install dependencies:
-
-```bash
-yarn
-```
-
-5. This project uses [Tailwind CSS](https://tailwindcss.com/docs/installation) in combination with some plugins [ESLint](https://github.com/francoismassart/eslint-plugin-tailwindcss/issues) and [Prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) for formatting.
-
-   > 👋 VSCode/ESLint does not pick newly installed packages in the node_modules directory. After installing the packages for the first time, restart the VSCode workspace.
-
-6. Run the development server:
+3. Install [Bun](https://bun.sh/docs/installation) (recommended package manager for this repo).
+4. Install dependencies and run the app:
 
 ```bash
-yarn dev
+bun install
+bun run dev
 ```
 
-7. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Option B: run with Docker Compose (without installing Node/Bun on your PC)
+
+If you prefer not to install Node/Bun locally, you can use the included compose file:
+
+```bash
+docker compose -f docker-compose.dev.yml up --build
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
+
+Notes:
+- You still need Docker Desktop / Docker Engine installed.
+- If your app needs environment variables, create a `.env.local` file before running compose.
+- Stop the stack with `Ctrl+C` or run `docker compose -f docker-compose.dev.yml down` in another terminal.
+
+This project uses [Tailwind CSS](https://tailwindcss.com/docs/installation) in combination with some plugins [ESLint](https://github.com/francoismassart/eslint-plugin-tailwindcss/issues) and [Prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) for formatting.
+
+> 👋 VSCode/ESLint does not pick newly installed packages in the `node_modules` directory. After installing the packages for the first time, restart the VSCode workspace.
+
+## Optional: isolate helper Python tooling with `venv`
+
+If you personally want to use Python scripts/tools in this repository, you can create a virtual environment, but it is not required to run the web app:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+To leave the environment later:
+
+```bash
+deactivate
+```
 
 # CI
 
