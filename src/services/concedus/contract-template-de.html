@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Investitionsvereinbarung – Vertrag {{contract_number}}</title>
+
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.55;
+      }
+      .page {
+        padding: 40px 55px 70px;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #299d90;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+      }
+      .header img {
+        height: 42px;
+      }
+      .header-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #299d90;
+        letter-spacing: 0.5px;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        color: #777;
+        border-top: 1px solid #ddd;
+        padding-top: 8px;
+      }
+
+      h1 {
+        color: #299d90;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 14px;
+        letter-spacing: 0.3px;
+      }
+      h2 {
+        color: #299d90;
+        font-size: 15px;
+        margin-top: 22px;
+        margin-bottom: 6px;
+      }
+
+      .contract-number {
+        text-align: right;
+        font-size: 12px;
+        font-weight: 600;
+        color: #299d90;
+        margin-bottom: 25px;
+      }
+
+      table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      table td {
+        padding: 4px 0;
+        vertical-align: top;
+      }
+      table td:first-child {
+        font-weight: 600;
+        width: 45%;
+      }
+
+      .signature-block {
+        margin-top: 35px;
+      }
+      .signature-line {
+        margin-top: 28px;
+        width: 280px;
+        border-top: 1px solid #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="header">
+        <img src="public/img/logo-tokenkey.png" alt="TokenKey Logo" />
+        <div class="header-title">Investitionsvereinbarung</div>
+      </div>
+
+      <div class="contract-number">Vertrag Nr. {{contract_number}}</div>
+
+      <h1>Investitionsvereinbarung</h1>
+
+      <p>
+        Diese Investitionsvereinbarung („Vereinbarung“) wird am
+        <strong>{{investment_date}}</strong> geschlossen zwischen:
+      </p>
+
+      <p>
+        <strong>{{customer_first_name}} {{customer_last_name}}</strong><br />
+        (der „Investor“)
+      </p>
+
+      <p>und</p>
+
+      <p>
+        <strong>TokenKey</strong>, einer Plattform für Investitionen in
+        tokenisierte Immobilienprojekte (das „Unternehmen“).
+      </p>
+
+      <h2>1. Projektdetails</h2>
+      <p>
+        Der Investor beteiligt sich hiermit am tokenisierten Immobilienprojekt:
+        <strong>{{project_name}}</strong>.
+      </p>
+
+      <h2>2. Investitionsübersicht</h2>
+      <table>
+        <tr>
+          <td>Investitionsbetrag</td>
+          <td>{{investment_amount}}</td>
+        </tr>
+        <tr>
+          <td>Token-Preis</td>
+          <td>{{token_price}}</td>
+        </tr>
+        <tr>
+          <td>Zugewiesene Token</td>
+          <td>{{token_quantity}}</td>
+        </tr>
+      </table>
+
+      <p>
+        Die erworbenen Token stellen eine anteilige Beteiligung an der zugrunde
+        liegenden Immobilie dar, gemäß den Bedingungen dieser Vereinbarung.
+      </p>
+
+      <h2>3. Bedingungen</h2>
+      <p>
+        Der Investor bestätigt, dass er alle relevanten Unterlagen,
+        Risikohinweise und Projektinformationen geprüft hat und den Bedingungen
+        für den Erwerb und das Halten digitaler, immobilienbezogener Token
+        zustimmt.
+      </p>
+
+      <h2>4. Bestätigung</h2>
+      <p>
+        Mit der Unterzeichnung bestätigt der Investor, die Art der Investition,
+        die damit verbundenen Risiken und erwarteten Vorteile vollständig zu
+        verstehen und freiwillig in diese Vereinbarung einzutreten.
+      </p>
+
+      <h2>5. Unterschriften</h2>
+      <div class="signature-block">
+        <p>Investor:</p>
+        <div class="signature-line"></div>
+        <p><strong>{{signature_name}}</strong></p>
+        <p>Datum: {{signature_date}}</p>
+      </div>
+
+      <div class="footer">
+        TokenKey • Sichere Immobilien-Tokenisierung • www.tokenkey.io
+      </div>
+    </div>
+  </body>
+</html>

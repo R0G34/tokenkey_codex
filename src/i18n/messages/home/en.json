@@ -1,0 +1,51 @@
+{
+  "home": {
+    "layout": {
+      "title": "TokenKey – Home",
+      "description": "TokenKey The present of investment in the real estate sector. Invest like the big investors. Our tokenization system allows […]"
+    },
+    "page": {
+      "title": "Invest in real estate like the pros",
+      "subtitle": "Real estate investment platform with tokens under European supervision",
+      "subtitle2": "Invest in tokens of the best real estate opportunities — easily and fully compliant with European regulations",
+      "cta": "Start investing",
+      "highlightedProjects": { "title": "Real Estate Marketplace" },
+      "yieldSimulator": {
+        "title": "Want to check the returns?",
+        "initialCapital": "Initial capital",
+        "monthlyContribution": "Monthly contribution",
+        "duration": "Duration",
+        "years": "years",
+        "youCanSave": "You can save",
+        "monthlySavings": "{monthlyContribution} monthly savings for {years} years",
+        "depositPeriodic": "Periodic Deposit",
+        "totalInterest": "Total interest",
+        "resultNotice": "The results are obtained based on an estimated interest rate of 15%. These results are purely illustrative and not guaranteed."
+      }
+    },
+    "newsletter": {
+      "mdTitle": "Don't miss the real estate revolution!",
+      "title": "Stay informed!",
+      "heroCta": "Join now",
+      "cta": "Subscribe",
+      "placeholder": "your@mail.com",
+      "consent": "I accept the <privacy>Privacy Policy</privacy> and <terms>Terms & Conditions</terms>.",
+      "isFetching": "Sending...",
+      "formDescription": "Be the first to know about our new investment opportunities.",
+      "toast": {
+        "success": {
+          "title": "You're in!",
+          "description": "We'll keep you up to date with the best investment opportunities."
+        },
+        "error": {
+          "title": "Error",
+          "description": "There was a problem subscribing. Please try again."
+        }
+      },
+      "errors": {
+        "email": "Please enter a valid email address",
+        "terms": "Please accept our Terms and Conditions"
+      }
+    }
+  }
+}

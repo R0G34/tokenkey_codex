@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: debug server-side",
+      "type": "node-terminal",
+      "request": "launch",
+      "runtimeArgs": ["--inspect"],
+      "command": "bun dev"
+    },
+    {
+      "name": "Next.js: debug client-side",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    },
+    // https://github.com/vercel/next.js/issues/79424#issuecomment-3127449243
+    {
+      "name": "Next.js: Debug with Auto-Attach",
+      "type": "node-terminal",
+      "command": "bun dev",
+      "request": "launch",
+      // "skipFiles": ["<node_internals>/**", "**/node_modules/**", "**.next**"],
+      "env": {
+        "NODE_OPTIONS": "--inspect=0.0.0.0:9229"
+      },
+      "sourceMapPathOverrides": {
+        "turbopack:///[project]/*": "${workspaceFolder}/*"
+      }
+    }
+  ]
+}

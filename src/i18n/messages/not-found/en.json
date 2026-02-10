@@ -1,0 +1,9 @@
+{
+  "not-found": {
+    "title": "404 – Not Found",
+    "h1": "This page is off the market.",
+    "text": "Looks like you've entered uncharted territory. Let's get you back to business.",
+    "homeButton": "Back to Home",
+    "marketplaceButton": "Browse Available Assets"
+  }
+}

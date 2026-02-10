@@ -1,0 +1,72 @@
+{
+  "project": {
+    "page": {
+      "title": "Immobilienmarkt",
+      "description": "...",
+      "cta": "Mehr Erfahren",
+      "requires_kyc": "KYC erforderlich"
+    },
+    "tabs": {
+      "description": {
+        "title": "Beschreibung",
+        "location": "Standort",
+        "highlights": {
+          "title": "Höhepunkte",
+          "profitability": "Erwartete jährliche Rendite",
+          "term": "Investitionszeitraum"
+        }
+      },
+      "documents": {
+        "title": "Dokumente",
+        "inner_title": "Rechtliche Dokumentation",
+        "description": "Alle rechtlichen Dokumente zu diesem Projekt stehen zur Einsicht zur Verfügung. Wir empfehlen Investoren, diese Dokumente sorgfältig zu prüfen, bevor sie Investitionsentscheidungen treffen."
+      },
+      "legals": {
+        "title": "Rechtliches"
+      },
+      "recent_activity": {
+        "title": "Letzte Aktivitäten",
+        "inner_title": "Kürzliche Verkäufe"
+      },
+      "schedule": { "title": "Zeitplan" }
+    },
+    "Project": {
+      "coming-soon": "Demnächst verfügbar!",
+      "title": "Projekt",
+      "TokenPrice": "Token-Preis",
+      "ExpectedReturn": "Erwartete Rendite",
+      "NumberOftokens": "Anzahl der Token",
+      "EstimatedTerm": "Geschätzte Laufzeit",
+      "termValue": "{term, plural, one {# Monat} other {# Monate}}",
+      "investors": "{investors, plural, one {<span>#</span> Investor} other {<span>#</span> Investoren}}",
+      "remainingTokens": "{tokens, plural, one {<span>#</span> Token verbleibend} other {<span>#</span> Token verbleibend}}",
+      "//remainingTokens": "{tokens} Token verbleibend",
+      "modality": { "Flipping": "Flipping" },
+      "status": {
+        "Cancelled": "Abgesagt",
+        "Reserved": "Reserviert",
+        "Under study": "In Prüfung"
+      },
+      "type": {
+        "Residential building": "Wohngebäude",
+        "Single Family Homes": "Einfamilienhäuser"
+      }
+    },
+    "document": {
+      "cadastral_reference": "Katasterreferenz",
+      "purchase_agreement": "Kaufvertrag",
+      "property_deed": "Grundbucheintrag",
+      "of": "von",
+      "legals": {
+        "securities-information-sheet": "Wertpapierinformationsblatt",
+        "risk-information": "Risikohinweise",
+        "cost-information": "Kosteninformation",
+        "revocation-instruction": "Widerrufsbelehrung",
+        "egbgb-consumer-information": "EGBGB-Verbraucherinformation",
+        "terms-of-use": "Nutzungsbedingungen",
+        "customer-information": "Kundeninformation",
+        "data-protection-agreement": "Datenschutzvereinbarung"
+      }
+    }
+  }
+}

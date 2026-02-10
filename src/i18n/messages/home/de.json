@@ -1,0 +1,53 @@
+{
+  "home": {
+    "layout": {
+      "title": "TokenKey – Heim",
+      "description": "TokenKey Die Gegenwart von Investitionen im Immobiliensektor. Investieren Sie wie die großen Investoren. Unser Tokenisierungssystem ermöglicht […]"
+    },
+    "page": {
+      "title": "Investiere in Immobilien wie die Profis",
+      "subtitle": "Immobilien-Investmentplattform mit Tokens unter europäischer Aufsicht",
+      "subtitle2": "Investiere ganz einfach und vollständig konform mit den europäischen Vorschriften",
+      "cta": "Jetzt investieren",
+      "highlightedProjects": {
+        "title": "Immobilienmarkt"
+      },
+      "yieldSimulator": {
+        "title": "Möchten Sie die Erträge überprüfen?",
+        "initialCapital": "Anfangskapital",
+        "monthlyContribution": "Monatlicher Beitrag",
+        "duration": "Dauer",
+        "years": "Jahre",
+        "youCanSave": "Sie können sparen",
+        "monthlySavings": "{monthlyContribution} monatliche Ersparnis für {years} Jahre",
+        "depositPeriodic": "Periodische Einzahlung",
+        "totalInterest": "Gesamtzinsen",
+        "resultNotice": "Die Ergebnisse basieren auf einem geschätzten Zinssatz von 15 %. Die Ergebnisse sind rein illustrativ und nicht garantiert."
+      }
+    },
+    "newsletter": {
+      "mdTitle": "Verpassen Sie nicht die Immobilienrevolution!",
+      "title": "Bleiben Sie informiert!",
+      "heroCta": "Bleib informiert!",
+      "cta": "Abonnieren",
+      "placeholder": "ihre@email.com",
+      "consent": "Ich akzeptiere die <privacy>Datenschutzrichtlinie</privacy> und die <terms>Allgemeinen Geschäftsbedingungen</terms>.",
+      "isFetching": "Senden...",
+      "formDescription": "Erfahren Sie als Erster von unseren neuen Investitionsmöglichkeiten.",
+      "toast": {
+        "success": {
+          "title": "Du bist dabei!",
+          "description": "Wir informieren Sie über die besten Investitionsmöglichkeiten."
+        },
+        "error": {
+          "title": "Fehler",
+          "description": "Beim Abonnieren ist ein Problem aufgetreten. Bitte versuchen Sie es erneut."
+        }
+      },
+      "errors": {
+        "email": "Bitte gib eine gültige E-Mail-Adresse ein",
+        "terms": "Bitte akzeptiere unsere Allgemeinen Geschäftsbedingungen"
+      }
+    }
+  }
+}

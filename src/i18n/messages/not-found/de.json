@@ -1,0 +1,9 @@
+{
+  "not-found": {
+    "title": "404 – Not Found",
+    "h1": "Diese Seite ist nicht mehr auf dem Markt.",
+    "text": "Sieht so aus, als hätten Sie Neuland betreten. Kommen wir zurück zum Geschäft.",
+    "homeButton": "Zurück zur Startseite",
+    "marketplaceButton": "Verfügbare Assets durchsuchen"
+  }
+}

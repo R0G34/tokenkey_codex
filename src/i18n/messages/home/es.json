@@ -1,0 +1,51 @@
+{
+  "home": {
+    "layout": {
+      "title": "TokenKey – Inicio",
+      "description": "TokenKey El presente de la inversión en el sector inmobiliario. Invierte como los grandes inversores. Nuestro sistema de tokenización, permite […]"
+    },
+    "page": {
+      "title": "Invierte en el sector inmobiliario como los grandes",
+      "subtitle": "Plataforma de inversión inmobiliaria con tokens bajo supervisión europea",
+      "subtitle2": "Invierte en tokens de las mejores promociones inmobiliarias de forma totalmente fácil y con toda la regulación Europea",
+      "cta": "Comienza a invertir",
+      "highlightedProjects": { "title": "Mercado Inmuebles" },
+      "yieldSimulator": {
+        "title": "¿Quieres comprobar los rendimientos?",
+        "initialCapital": "Capital inicial",
+        "monthlyContribution": "Aportación mensual",
+        "duration": "Duración",
+        "years": "años",
+        "youCanSave": "Puedes ahorrar",
+        "monthlySavings": "ahorro {monthlyContribution} mensual durante {years} años",
+        "depositPeriodic": "Depósito Periódico",
+        "totalInterest": "Interés total",
+        "resultNotice": "Los resultados se obtienen en base a una tasa de interés estimada del 15%. Los resultados son meramente ilustrativos y no están garantizados."
+      }
+    },
+    "newsletter": {
+      "mdTitle": "¡No te pierdas la revolución inmobiliaria!",
+      "title": "¡Mantente informado!",
+      "heroCta": "Únete ahora",
+      "cta": "Suscribirse",
+      "placeholder": "tu@email.com",
+      "consent": "Acepto la <privacy>Política de privacidad</privacy> y los <terms>Términos y condiciones</terms>.",
+      "isFetching": "Enviando...",
+      "formDescription": "Sé el primero en conocer nuestras nuevas oportunidades de inversión.",
+      "toast": {
+        "success": {
+          "title": "¡Estás dentro!",
+          "description": "Te mantendremos al tanto de las mejores oportunidades de inversión."
+        },
+        "error": {
+          "title": "Error",
+          "description": "Hubo un problema al suscribirte. Por favor, inténtalo de nuevo."
+        }
+      },
+      "errors": {
+        "email": "Por favor, introduce un email válido",
+        "terms": "Por favor, acepta nuestros Términos y condiciones"
+      }
+    }
+  }
+}

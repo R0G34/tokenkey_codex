@@ -1,0 +1,71 @@
+{
+  "project": {
+    "page": {
+      "title": "Mercado Inmuebles",
+      "description": "...",
+      "cta": "Saber Más",
+      "requires_kyc": "Requiere KYC"
+    },
+    "tabs": {
+      "description": {
+        "title": "Descripción",
+        "location": "Ubicación",
+        "highlights": {
+          "title": "Aspectos destacados",
+          "profitability": "Rentabilidad anual esperada",
+          "term": "Periodo de inversión"
+        }
+      },
+      "documents": {
+        "title": "Documentos",
+        "inner_title": "Documentación Legal",
+        "description": "Todos los documentos legales relacionados con este proyecto están disponibles para tu revisión. Recomendamos a los inversores que examinen cuidadosamente estos documentos antes de tomar decisiones de inversión."
+      },
+      "legals": {
+        "title": "Legales"
+      },
+      "recent_activity": {
+        "title": "Actividad reciente",
+        "inner_title": "Ventas recientes"
+      },
+      "schedule": { "title": "Cronograma" }
+    },
+    "Project": {
+      "coming-soon": "¡Muy pronto!",
+      "title": "Proyecto",
+      "TokenPrice": "Precio token",
+      "ExpectedReturn": "Rentabilidad esperada",
+      "NumberOftokens": "Cantidad de tokens",
+      "EstimatedTerm": "Plazo estimado",
+      "termValue": "{term, plural, one {# mes} other {# meses}}",
+      "investors": "{investors, plural, one {<span>#</span> inversor} other {<span>#</span> inversores}}",
+      "remainingTokens": "{tokens, plural, one {queda <span>#</span> token} other {quedan <span>#</span> tokens}}",
+      "modality": { "Flipping": "Flipping" },
+      "status": {
+        "Cancelled": "Cancelado",
+        "Reserved": "Reservado",
+        "Under study": "En estudio"
+      },
+      "type": {
+        "Residential building": "Edificio residencial",
+        "Single Family Homes": "Viviendas Unifamiliares"
+      }
+    },
+    "document": {
+      "cadastral_reference": "Referencia catastral",
+      "purchase_agreement": "Contrato de Compraventa",
+      "property_deed": "Escritura de Propiedad",
+      "of": "de",
+      "legals": {
+        "securities-information-sheet": "Hoja informativa sobre los valores",
+        "risk-information": "Información sobre riesgos",
+        "cost-information": "Información sobre costes",
+        "revocation-instruction": "Instrucciones de revocación",
+        "egbgb-consumer-information": "Información para el consumidor EGBGB",
+        "terms-of-use": "Condiciones de uso",
+        "customer-information": "Información para el cliente",
+        "data-protection-agreement": "Instrucciones de revocación"
+      }
+    }
+  }
+}

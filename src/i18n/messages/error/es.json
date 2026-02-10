@@ -1,0 +1,9 @@
+{
+  "error": {
+    "title": "Algo no funcionó correctamente",
+    "p": "Puedes intentar de nuevo o volver a la página anterior.",
+    "error-code": "Código de error:",
+    "back-button": "Volver atrás",
+    "retry-button": "Intentar de nuevo"
+  }
+}

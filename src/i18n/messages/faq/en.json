@@ -1,0 +1,71 @@
+{
+  "faq": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is TokenKey Solutions and how does the investment model work?",
+        "answer": "TokenKey Solutions is a company specialized in the tokenization of real estate assets in Spain. We buy unfinished real estate, complete its construction and sell it. To finance these activities, we issue Security Tokens that represent investments linked to specific real estate projects. By investing in our tokens, investors indirectly participate in the real estate market and earn a fixed return in the form of a coupon at the end of the investment period, usually one year."
+      },
+      {
+        "id": 2,
+        "question": "What is a Security Token and how does it relate to real estate?",
+        "answer": "A Security Token is a digital asset that represents a stake in a TokenKey project. Each token issue is associated with the acquisition, construction and sale of real estate in Spain. The money raised through the tokens is used directly to finance the real estate projects. At the end of the investment period, the tokens are redeemed at face value and investors receive a fixed coupon."
+      },
+      {
+        "id": 3,
+        "question": "What security does TokenKey offer to investors?",
+        "answer": "TokenKey Security Tokens are non-subordinated obligations and are not directly secured by the underlying real estate assets. However, they are issued in accordance with German law under the Electronic Securities Act (eWpG) and are registered on a blockchain platform that guarantees the security of transactions and the registration of ownership. In addition, payments are made off-chain to ensure transparency in settlement."
+      },
+      {
+        "id": 4,
+        "question": "What benefit do I get from investing in TokenKey?",
+        "answer": "Investors receive a fixed return in the form of a coupon at the end of the investment period, which is usually one year. This return does not directly depend on the sale of the property, which provides investors with greater stability in their investment. At the end of the period, the tokens are redeemed at face value, and investors recover the invested capital along with the coupon."
+      },
+      {
+        "id": 5,
+        "question": "What risks are there when investing in TokenKey Security Tokens?",
+        "answer": "Like any investment, there are risks associated with it. Although TokenKey owns 100% of the properties it finances and the projects are backed by real assets, the Security Tokens are not directly collateralized by those real estate assets. Additionally, since the tokens are issued and recorded on a blockchain platform, there are risks inherent to blockchain technology, such as potential cyberattacks or failures in the underlying technology. However, we have implemented rigorous measures to minimize these risks and ensure the integrity of the record."
+      },
+      {
+        "id": 6,
+        "question": "How can I ensure that my investment is protected?",
+        "answer": "We use a blockchain platform registered under the German Electronic Securities Act (eWpG), which ensures that Security Tokens are duly registered and protected against unauthorized modifications. In addition, all investors go through a KYC (Know Your Customer) verification process managed by The German Regulated Issuer, a licensed and regulated distributor in the EU. These procedures comply with anti-money laundering and fraud regulations."
+      },
+      {
+        "id": 7,
+        "question": "How can I invest in TokenKey Security Tokens?",
+        "answer": "To invest, you can do so via our website, which will then pass all the data to The German Regulated Issuer, our exclusive distributor, who will manage the entire investment process. Investors must comply with identity verification requirements (KYC) and, once approved, they can purchase the tokens of the corresponding issue. Concedus also provides personalized advice to ensure that the investment fits your financial needs."
+      },
+      {
+        "id": 8,
+        "question": "How and when will I receive my profits?",
+        "answer": "At the end of the investment period, which usually lasts one year, TokenKey redeems the Security Tokens at their nominal value. In addition, investors receive a fixed coupon. Payments are made off-chain directly to the investor's account."
+      },
+      {
+        "id": 9,
+        "question": "How can I follow the progress of the projects I am investing in?",
+        "answer": "TokenKey provides regular reports on the progress of real estate projects. In addition, the blockchain platform used to register the Security Tokens allows investors to verify ownership of their tokens at any time. We will provide access to relevant updates on the status of constructions and sales of the properties."
+      },
+      {
+        "id": 10,
+        "question": "Do I need to have experience in blockchain technology to invest?",
+        "answer": "No. Although we use blockchain technology to issue and manage the Security Tokens, investors do not need advanced technical knowledge to participate. Our distributor, The German Regulated Issuer, takes care of all technical aspects related to the issuance and acquisition of the tokens. Investors only need to go through the verification process and can follow the progress of their investment through regular reports."
+      },
+      {
+        "id": 11,
+        "question": "What is the regulatory framework governing TokenKey Security Tokens?",
+        "answer": "Security Tokens are issued under the German Electronic Securities Legislation (eWpG). This ensures that the tokens meet the highest standards of security and transparency, and that the issuance of the tokens is subject to regulatory oversight by BaFin, the German financial supervisory authority."
+      },
+      {
+        "id": 12,
+        "question": "What are the minimum requirements to invest in TokenKey?",
+        "answer": "Minimum requirements may vary depending on the specific token issue. Our tokens are generally available to both institutional and retail investors, subject to a verification process. The minimum investment amount will be determined by each issue and can be consulted through our distributor The German Regulated Issuer. Tokenization is intended to allow investments starting from a very small amount, such as €100 per token."
+      },
+      {
+        "id": 13,
+        "question": "Are Security Tokens available for trading on secondary markets?",
+        "answer": "No, Security Tokens issued by TokenKey are not eligible for trading on regulated secondary markets, such as stock exchanges. However, investors receive their return through TokenKey's redemption of the tokens at the end of the investment period. Under certain circumstances, early redemption may be possible with TokenKey."
+      }
+    ]
+  }
+}

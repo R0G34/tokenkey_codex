@@ -1,0 +1,35 @@
+{
+  "modeToggle": {
+    "title": "Cambiar tema",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "LocaleSwitcher": {
+    "title": "Idioma",
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, es {Español} en {English} de {Deutsch} other {Desconocido}}",
+    "more": "Más"
+  },
+  "footer": {
+    "legalNotice": "Aviso Legal",
+    "terms": "Términos y Condiciones",
+    "privacy": "Privacidad",
+    "cookie": "Cookies",
+    "cookiePreferences": "Preferencias de cookies",
+    "text": "<strong>Advertencia:</strong> La adquisición de instrumentos financieros conlleva riesgos considerables y puede provocar la pérdida total de los activos invertidos. El rendimiento prometido no está garantizado y puede ser inferior.\n\n<strong>TokenKey Solutions Germany GmbH</strong> es un agente vinculado en el sentido del artículo 3, apartado 2, de la Ley alemana del mercado de valores (WplG) y actúa exclusivamente en nombre y bajo la responsabilidad de la empresa de valores Concedus GmbH, con sede en Núremberg, en la intermediación de instrumentos financieros.\n\nMás sobre <concedus>CONCEDUS</concedus>.\n\nLa información contenida en esta página ha sido facilitada exclusivamente por el emisor. CONCEDUS no comprueba esta información, en particular la solvencia del emisor. El registro de agentes vinculados de la BaFin está disponible en <link>https://portal.mvp.bafin.de/database/VGVInfo</link>"
+  },
+  "help": {
+    "faq": { "title": "Resolvemos tus dudas" }
+  },
+  "intercom": {
+    "opener": "Cómo funciona"
+  },
+  "logout": "Salir",
+  "navbar": {
+    "howItWorks": "Cómo funciona",
+    "marketplace": "Marketplace",
+    "yourAccount": "Tu cuenta",
+    "startApp": "Iniciar app"
+  }
+}

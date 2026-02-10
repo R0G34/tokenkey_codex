@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Acuerdo de Inversión – Contrato {{contract_number}}</title>
+
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.55;
+      }
+      .page {
+        padding: 40px 55px 70px;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #299d90;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+      }
+      .header img {
+        height: 42px;
+      }
+      .header-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #299d90;
+        letter-spacing: 0.5px;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        color: #777;
+        border-top: 1px solid #ddd;
+        padding-top: 8px;
+      }
+
+      h1 {
+        color: #299d90;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 14px;
+        letter-spacing: 0.3px;
+      }
+      h2 {
+        color: #299d90;
+        font-size: 15px;
+        margin-top: 22px;
+        margin-bottom: 6px;
+      }
+
+      .contract-number {
+        text-align: right;
+        font-size: 12px;
+        font-weight: 600;
+        color: #299d90;
+        margin-bottom: 25px;
+      }
+
+      table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      table td {
+        padding: 4px 0;
+        vertical-align: top;
+      }
+      table td:first-child {
+        font-weight: 600;
+        width: 45%;
+      }
+
+      .signature-block {
+        margin-top: 35px;
+      }
+      .signature-line {
+        margin-top: 28px;
+        width: 280px;
+        border-top: 1px solid #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="header">
+        <img src="public/img/logo-tokenkey.png" alt="TokenKey Logo" />
+        <div class="header-title">Acuerdo de Inversión</div>
+      </div>
+
+      <div class="contract-number">Contrato Nº {{contract_number}}</div>
+
+      <h1>Acuerdo de Inversión</h1>
+
+      <p>
+        El presente Acuerdo de Inversión (“Acuerdo”) se celebra el
+        <strong>{{investment_date}}</strong> entre:
+      </p>
+
+      <p>
+        <strong>{{customer_first_name}} {{customer_last_name}}</strong><br />
+        (el “Inversor”)
+      </p>
+
+      <p>y</p>
+
+      <p>
+        <strong>TokenKey</strong>, una plataforma que facilita el acceso a
+        oportunidades de inversión inmobiliaria tokenizada (la “Compañía”).
+      </p>
+
+      <h2>1. Detalles del Proyecto</h2>
+      <p>
+        El Inversor participa en el proyecto de tokenización inmobiliaria:
+        <strong>{{project_name}}</strong>.
+      </p>
+
+      <h2>2. Resumen de la Inversión</h2>
+      <table>
+        <tr>
+          <td>Importe de la Inversión</td>
+          <td>{{investment_amount}}</td>
+        </tr>
+        <tr>
+          <td>Precio del Token</td>
+          <td>{{token_price}}</td>
+        </tr>
+        <tr>
+          <td>Tokens Asignados</td>
+          <td>{{token_quantity}}</td>
+        </tr>
+      </table>
+
+      <p>
+        Los tokens adquiridos representan una participación fraccionada en el
+        activo inmobiliario subyacente, de acuerdo con los términos establecidos
+        en este Acuerdo.
+      </p>
+
+      <h2>3. Términos y Condiciones</h2>
+      <p>
+        El Inversor declara haber revisado toda la documentación relevante, los
+        avisos de riesgo y la información del proyecto, y acepta los términos
+        relacionados con la adquisición y tenencia de tokens digitales
+        respaldados por bienes inmuebles.
+      </p>
+
+      <h2>4. Aceptación</h2>
+      <p>
+        Al firmar este documento, el Inversor confirma comprender completamente
+        la naturaleza de la inversión, los riesgos asociados y los beneficios
+        esperados, y acepta voluntariamente este Acuerdo.
+      </p>
+
+      <h2>5. Firmas</h2>
+      <div class="signature-block">
+        <p>Inversor:</p>
+        <div class="signature-line"></div>
+        <p><strong>{{signature_name}}</strong></p>
+        <p>Fecha: {{signature_date}}</p>
+      </div>
+
+      <div class="footer">
+        TokenKey • Tokenización Inmobiliaria Segura • www.tokenkey.io
+      </div>
+    </div>
+  </body>
+</html>

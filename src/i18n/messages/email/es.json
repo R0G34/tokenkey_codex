@@ -1,0 +1,47 @@
+{
+  "email": {
+    "verify": {
+      "button": "Iniciar sesión de forma segura",
+      "heading": "🪄 Tu enlace mágico",
+      "preview": "Inicia sesión en TokenKey",
+      "subject": "Accede de forma segura a TokenKey",
+      "text": "Para tu seguridad, este enlace te permite acceder directamente a tu cuenta de TokenKey. Haz clic en el botón de abajo para iniciar sesión. Este enlace es válido durante 5 minutos:",
+      "text2": "O copia y pega esta URL en tu navegador:",
+      "noticeTitle": "Aviso de seguridad:",
+      "notice": "Si no solicitaste este correo electrónico, puedes ignorarlo. Es posible que alguien haya ingresado tu dirección de correo electrónico por error.",
+      "otp": {
+        "heading": "🪄 Tu código mágico",
+        "text": "Para tu seguridad, este código te permite acceder directamente a tu cuenta en TokenKey. Ingresa o copia y pega el código en la ventana abierta de tu navegador:",
+        "hint": "(Este código es válido por 5 minutos)"
+      }
+    },
+    "welcome": {
+      "heading": "¡Bienvenido a TokenKey!",
+      "greeting": "¡Estamos emocionados de tenerte a bordo!",
+      "introText": "Gracias por unirse a TokenKey, tu puerta de entrada a inversiones inmobiliarias inteligentes. Ya sea que estes buscando aumentar tu patrimonio o diversificar tu cartera, estamos aquí para guiarte en cada paso del camino.",
+      "nextStepsText": "Esto es lo que puedes hacer a continuación:",
+      "step1": "Explora los proyectos disponibles en tu panel.",
+      "step2": "Diversifica tu portafolio con tokens de activos únicos.",
+      "step3": "Comienza a invertir con tan solo 100€.",
+      "ctaText": "Ir a tu dashboard",
+      "subject": "¡Bienvenido a TokenKey: Invierte desde 100€!"
+    },
+    "transaction-completed": {
+      "heading": "¡Tu transacción ha sido completada!",
+      "greeting": "¡Buenas noticias!",
+      "mainText": "Hemos recibido tu transferencia bancaria y tu transacción ya está completada. Los fondos ya están disponibles en tu cuenta de TokenKey.",
+      "amountText": "Cantidad depositada:",
+      "referenceText": "Referencia:",
+      "nextStepsText": "¿Qué puedes hacer ahora?",
+      "step1": "Explora los proyectos disponibles para invertir.",
+      "step2": "Compra tokens y diversifica tu portafolio.",
+      "step3": "Consulta tu saldo y movimientos en cualquier momento.",
+      "ctaText": "Ir a tu cuenta",
+      "subject": "¡Tu depósito de {amount} está listo, {firstname}!"
+    },
+    "footer": {
+      "footerText": "Todos los derechos reservados.",
+      "supportText": "¿Necesitas ayuda? Contáctanos en"
+    }
+  }
+}

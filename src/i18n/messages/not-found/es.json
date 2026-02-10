@@ -1,0 +1,9 @@
+{
+  "not-found": {
+    "title": "404 – Not Found",
+    "h1": "Esta página ya no está disponible en el mercado.",
+    "text": "Parece que has entrado en territorio desconocido. Vamos a ponerte manos a la obra.",
+    "homeButton": "Volver a la página de inicio",
+    "marketplaceButton": "Explorar activos disponibles"
+  }
+}

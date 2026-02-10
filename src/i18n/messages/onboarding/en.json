@@ -1,0 +1,657 @@
+{
+  "onboarding": {
+    "// onboardingPage": {
+      "subtitle": "Your best real estate investment through tokenisation",
+      "catchphrase": "Invest in the real estate business easily and safely from €100",
+      "form": {
+        "title": "Complete profile",
+        "description": "We need a few more details to personalize your experience",
+        "person": "Person",
+        "company": "Company",
+        "firstname": "Firstname",
+        "surname1": "First lastname",
+        "surname2": "Second lastname",
+        "companyName": "Company name",
+        "taxId": "CIF/VAT",
+        "phone": "Phone"
+      }
+    },
+    "layout": {
+      "title": "Onboarding",
+      "subtitle": "Complete these steps to start investing in real estate",
+      "progress": {
+        "steps": "{completedSteps} of {totalSteps} completed",
+        "percentage": "{progressPercentage}% complete"
+      }
+    },
+    "title": "Complete Your Profile",
+    "menu": {
+      "company": {
+        "title": "Company",
+        "description": "Provide your company information"
+      },
+      "personalData": {
+        "title": "Personal Information",
+        "description": "Provide your basic personal information to get started"
+      },
+      "pep": {
+        "title": "Politically Exposed Person",
+        "description": "Declare any political affiliations or exposures"
+      },
+      "wphg": {
+        "title": "Experience and Knowledge",
+        "description": "Tell us about your previous investment experience"
+      },
+      "custody": {
+        "title": "Custody",
+        "description": "Connect your crypto wallet for transactions"
+      },
+      "kyc": {
+        "title": "KYC Verification",
+        "description": "Complete identity verification to finalize your account"
+      },
+      "representatives": {
+        "title": "Representatives",
+        "description": "Add company representatives"
+      },
+      "beneficialOwners": {
+        "title": "Beneficial Owners",
+        "description": "Identify beneficial owners"
+      },
+      "uboAml": {
+        "title": "UBO & AML",
+        "description": "Anti-money laundering checks"
+      },
+      "signout": "Sign out",
+      "back": "Back to home",
+      "completeProfile": "Complete your profile",
+      "hide": "Hide",
+      "show": "Show",
+      "completeSteps": "Completed Steps"
+    },
+    "steps": {
+      "edit": "Review & Edit",
+      "start": "Start step",
+      "locked": "Locked"
+    },
+    "toast": {
+      "success": "Data saved successfully 🎊",
+      "error": "Uh oh! Something went wrong."
+    },
+    "company": {
+      "title": "Company",
+      "subtitle": "Fill in your company details",
+      "form": {
+        "companyInformation": {
+          "legend": "Company Information",
+          "name": "Company Name",
+          "foundingDate": "Fouding date",
+          "pickADate": "Pick a date",
+          "registryCourt": "Court of Registration",
+          "legalForm": "Legal form",
+          "legalFormPlaceholder": "Select a form",
+          "taxId": "Tax number",
+          "registryNo": "Registration number (if available)",
+          "registryNumber": "VAT identification number"
+        },
+        "address": {
+          "legend": "Address",
+          "street": "Street",
+          "streetNumber": "Street Number",
+          "postcode": "Postcode",
+          "city": "City",
+          "country": "Country"
+        },
+        "submit": "Accept and Continue",
+        "errors": {
+          "name": "Company name is required",
+          "legalForm": "Legal form is required",
+          "taxId": "Tax number is required",
+          "registryNumber": "VAT identification number is required",
+          "foundingDate": "Founding date is required",
+          "street": "Street is required",
+          "streetNumber": "Street number is required",
+          "postcode": "Postcode is required",
+          "city": "City is required",
+          "country": "Country is required"
+        }
+      },
+      "legalForm": {
+        "AG": "PLC (Public Limited Company)",
+        "eG": "Co-operative Society",
+        "GmbH": "Ltd (Private Limited Company)",
+        "GmbH_CoKG": "Ltd & LLP/LP hybrid",
+        "KG": "Limited Partnership (LP)",
+        "Ltd": "Ltd (Private Limited Company)",
+        "Stiftung": "Charitable Trust / Foundation"
+      }
+    },
+    "personalData": {
+      "title": "Personal Information",
+      "subtitle": "Fill in your details to start investing",
+      "form": {
+        "accountType": {
+          "legend": "Account Type",
+          "naturalPerson": "Natural Person",
+          "legalPerson": "Legal Person (Company)"
+        },
+        "personalInformation": {
+          "legend": "Personal Information",
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "birthDate": "Birth date",
+          "pickADate": "Pick a date",
+          "placeOfBirth": "Place of Birth",
+          "nationality": "Nationality"
+        },
+        "address": {
+          "legend": "Address",
+          "street": "Street",
+          "streetNumber": "Street Number",
+          "postcode": "Postcode",
+          "city": "City",
+          "country": "Country"
+        },
+        "roles": {
+          "legend": "Your role within the company",
+          "desc": "To determine your relationship with the company, please answer the following statements truthfully.",
+          "representative": "I am a member of the representative body / the legal representative",
+          "fictitiousBeneficialOwner": {
+            "label": "I am a fictitious beneficial owner",
+            "tooltip": "If no natural person holding more than 25% of the capital or voting rights can be determined from the structure, for example in the case of a free float of shares, a legal representative is deemed to be the beneficial owner"
+          },
+          "authorizedBeneficialOwner": {
+            "label": "I am an authorized beneficial owner",
+            "capitalShares": "% Capital shares",
+            "votingRights": "% Voting rights"
+          },
+          "powerOfAttorney": "I have a power of attorney"
+        },
+        "submit": "Accept and Continue",
+        "errors": {
+          "forename": "Forename is required",
+          "surname": "Surname is required",
+          "birthdate": "Birthdate is required",
+          "birthplace": "Birthplace is required",
+          "nationality": "Nationality is required",
+          "street": "Street is required",
+          "streetNumber": "Street number is required",
+          "postcode": "Postcode is required",
+          "city": "City is required",
+          "country": "Country is required",
+          "roles": "At least one role must be selected"
+        }
+      }
+    },
+    "bank": {
+      "form": {
+        "legend": "Bank details",
+        "holder": "Account holder",
+        "bank": "Bank",
+        "swift": "SWIFT/BIC",
+        "iban": "IBAN",
+        "location": "Bank location",
+        "currency": "Currency of the account",
+        "errors": {
+          "holder": "Account holder is required.",
+          "bank": "Bank is required.",
+          "swift": "SWIFT/BIC is required.",
+          "iban": "IBAN is not valid.",
+          "location": "Bank location is required.",
+          "currency": "Currency of the specified account is required."
+        }
+      }
+    },
+    "pepStatus": {
+      "title": "Politically Exposed Person status",
+      "subtitle": "Declare any political affiliations",
+      "intro": "Politically exposed persons (PEP) are persons who hold high government offices, such as ministers, state secretaries or ambassadors. If you hold such a position or are close to a politically exposed person, please confirm this:",
+      "form": {
+        "//status": "YES, I am a politically exposed person (PEP), an immediate family member of a politically exposed person or a person known to be close to a politically exposed person.",
+        "status": "I am a politically exposed person (PEP), an immediate family member of a politically exposed person or a person known to be close to a politically exposed person:",
+        "no": "No",
+        "yes": "Yes",
+        "//submitHint": "By clicking Accept and Continue, I confirm that I am acting on my own account and in my own economic interest.",
+        "submitHint": "By clicking, I confirm that I am acting on my own account and in my own economic interest.",
+        "submit": "Accept and Continue"
+      }
+    },
+    "representatives": {
+      "title": "Representatives",
+      "subtitle": "Add company representatives",
+      "subject": "Members of the representative body or legal representatives",
+      "intro": "Please enter all members of the representative body or legal representatives.",
+      "addNaturalPerson": "Add Natural Person",
+      "addLegalPerson": "Add Legal Person",
+      "acceptAndContinue": "Accept and Continue",
+      "naturalPersonForm": {
+        "forename": "Forename",
+        "surname": "Surname",
+        "errors": {
+          "forename": "Forename is required",
+          "surname": "Surname is required"
+        }
+      },
+      "alertDeleteConfirm": {
+        "title": "Are you sure?",
+        "description": "This action cannot be undone.",
+        "cancel": "Cancel",
+        "continue": "Continue"
+      },
+      "addMember": "Add member",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "beneficialOwners": {
+      "title": "Beneficial Owners",
+      "subtitle": "Identify beneficial owners",
+      "subject": "Beneficial Owners",
+      "intro": "For legal reasons, we must ask for the beneficial owners of the company you represent. Please enter here all natural persons who own more than 25% of the capital or voting rights of the company.",
+      "alert": {
+        "title": "The beneficial owner is:",
+        "list": [
+          "the natural person who ultimately owns or controls a legal entity, or",
+          "the natural person at whose instigation a transaction is ultimately carried out or a business relationship is ultimately established."
+        ],
+        "p1": "This includes any natural person who directly or indirectly holds more than 25% of the capital shares, controls more than 25% of the voting rights or exercises control in a comparable manner.",
+        "p2": "If the structure of the company is such that a natural person does not meet these requirements at the direct shareholding level, the company structure must be analyzed comprehensively until one or more natural persons are identified. If there are several beneficial owners, they must all be listed.",
+        "p3": "The 25% threshold no longer applies from the second level of participation in the contractual partner. In this case, a shareholding must be pursued further if control can actually be exercised over the respective direct participant. Accordingly, an indirect participant exercises control if it ultimately holds more than 50% of the capital shares in the relevant direct participant, controls more than 50% of the voting rights or can exercise a controlling influence."
+      },
+      "personRegistrable": "Persons you can register as beneficial owners",
+      "personRegistrableDescription": "Below you will find a list of the registered legal representatives. If one of the legal representatives already registered is also a beneficial owner, please click on the button next to the name to complete the required data.",
+      "list": {
+        "title": "Beneficial owners",
+        "addButton": "Add another person",
+        "alert": {
+          "title": "Are you sure?",
+          "description": "This action cannot be undone.",
+          "cancel": "Cancel",
+          "continue": "Continue"
+        }
+      },
+      "form": {
+        "title": "Add Beneficial Owner",
+        "forename": "Forename",
+        "surname": "Surname",
+        "birthDate": "Birth date",
+        "birthDatePlaceholder": "Pick a date",
+        "nationality": "Nationality",
+        "nationalityPlaceholder": "Select a country",
+        "placeOfBirth": "Place of Birth",
+        "isPep": "Is a PEP",
+        "fictitiousUBO": "Fictitious UBO",
+        "capitalShares": "% Capital shares",
+        "votingRights": "% Voting rights",
+        "address": {
+          "title": "Address",
+          "streetNumber": "Street and number",
+          "postcode": "Postcode",
+          "city": "City",
+          "country": "Country",
+          "countryPlaceholder": "Select a country"
+        },
+        "cancel": "Cancel",
+        "save": "Save",
+        "errors": {
+          "id": "An id is required.",
+          "forename": "Forename is required",
+          "surname": "Surname is required",
+          "birthdate": "A date of birth is required.",
+          "nationality": "Please select a nationality",
+          "birthplace": "Place of birth is required",
+          "streetAndNumber": "A street is required",
+          "postcode": "A postcode is required",
+          "city": "A city is required",
+          "country": "A country is required"
+        }
+      },
+      "acceptAndContinue": "Accept and Continue"
+    },
+    "uboAml": {
+      "title": "UBO & AML",
+      "subtitle": "Anti-money laundering checks",
+      "subject": "Other documents",
+      "p1": "In order to carry out our audit successfully, we require the following relevant documents for legal entities.",
+      "p2": "Please upload the relevant documents for the UBO and AML exam.",
+      "files": {
+        "hint1": "Click to upload or drag and drop files here",
+        "hint2": "PDF, max 20MB, max 1 document",
+        "commercialRegister": "Extract from the commercial register",
+        "shareholdersAgreement": "Shareholder agreement",
+        "shareholdersList": "List of all shareholders",
+        "transparencyRegister": "Transparency register extract",
+        "powerOfAttorney": "Power of attorney"
+      },
+      "acceptAndContinue": "Accept and Continue"
+    },
+    "wphg": {
+      "title": "Experience & level of knowledge",
+      "subtitle": "Tell us about your experience",
+      "p1": "We are legally obliged to assess whether an investment in a financial instrument offered here is appropriate for our investors (appropriateness test). For this purpose, we ask you to answer the following questions accurately and completely. If you do not wish to share information with us, an investment is possible, but we cannot assess whether it is appropriate for you.\nPlease note: This appropriateness check does not constitute an individual recommendation as to whether the selected financial instrument is actually suitable for you (unlike investment advice). It is merely an assessment of whether you can judge the risks associated with the product based on your knowledge or experience in our opinion. Thank you for your answers and your trust.",
+      "p2": "Professional clients under the German Securities Trading Act are deemed to have sufficient experience or knowledge to be able to properly assess the risks associated with the investment.",
+      "form": {
+        "legend": "Would you like to provide details of your investment experience?",
+        "yes": "Yes",
+        "no": "No",
+        "professional": "I would like to be classified or categorized as a professional client in accordance with the German Securities",
+        "submit": "Continue",
+        "errors": { "answer-min": "Please select an option" }
+      },
+      "knowledge": {
+        "title": "Experience & level of knowledge",
+        "form": {
+          "description": "Question {id} of {length}",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Do you already have experience with capital investments?",
+              "answers": [
+                { "id": 1, "text": "I do not wish to provide any information" },
+                { "id": 2, "text": "No" },
+                { "id": 3, "text": "Yes" }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "How long have you had knowledge and experience with investments?",
+              "answers": [
+                { "id": 1, "text": "Less than 1 year" },
+                { "id": 2, "text": "1-3 years" },
+                { "id": 3, "text": "More than 3 years" }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "What was your average investment amount?",
+              "answers": [
+                { "id": 1, "text": "I have not invested yet" },
+                { "id": 2, "text": "Up to 5.000€" },
+                { "id": 3, "text": "Up to 25.000€" },
+                { "id": 4, "text": "More than 25.000€" }
+              ]
+            },
+            {
+              "id": 4,
+              "text": "How often do you invest in these asset classes per year?",
+              "answers": [
+                { "id": 1, "text": "Less than 5 transactions" },
+                { "id": 2, "text": "More than 5 transactions" }
+              ]
+            },
+            {
+              "id": 5,
+              "text": "Do you do business with or in virtual currencies?",
+              "answers": [
+                { "id": 1, "text": "Yes" },
+                { "id": 2, "text": "No" }
+              ]
+            },
+            {
+              "id": 6,
+              "text": "What percentage of your transactions do you process with virtual currencies?",
+              "answers": [
+                { "id": 1, "text": "Less than 50%" },
+                { "id": 2, "text": "More than 50%" }
+              ]
+            },
+            {
+              "id": 7,
+              "text": "Have you gained relevant capital market experience through your job or training?",
+              "answers": [
+                { "id": 1, "text": "Yes, at least one year" },
+                { "id": 2, "text": "No" }
+              ]
+            },
+            {
+              "id": 8,
+              "text": "How did you gain this experience?",
+              "answers": [
+                {
+                  "id": 1,
+                  "text": "Relevant profession: Banking and/or insurance"
+                },
+                {
+                  "id": 2,
+                  "text": "Relevant studies/training e.g. business administration/bank clerk"
+                },
+                { "id": 3, "text": "Both" }
+              ]
+            }
+          ],
+          "experience": {
+            "text": "Which of these forms of investment do you have experience with",
+            "answers": [
+              { "id": 1, "text": "Closed-end investments funds" },
+              { "id": 2, "text": "Bonds" },
+              { "id": 3, "text": "Certificates" },
+              { "id": 4, "text": "Tokenized securities" }
+            ]
+          },
+          "back": "Go Back",
+          "submit": "Accept and Continue"
+        },
+        "errors": { "answer-all": "Please answer all the questions" }
+      },
+      "risk-warning": {
+        "form": {
+          "description": "I am aware that my knowledge and experience are not sufficient to fully assess the risks of this investment. I nevertheless wish to invest in this financial instrument.",
+          "back": "Go Back",
+          "submit": "Accept and Continue"
+        },
+        "errors": {
+          "read": "Please read and accept"
+        }
+      },
+      "professional": {
+        "title": "Classification as a professional customer",
+        "p1": {
+          "0": "Investment amounts over €25,000 can currently only be invested by professional clients. A professional client is assumed to have sufficient knowledge and/or experience. If, as an investor, you meet at least two of the following three criteria, you can apply to be classified as a professional client under the Securities Trading Act (WpHG). Please answer the following questions truthfully.",
+          "1": "Investment amounts over the amount of € 25,000 can currently only be invested by professional customer. A professional client is deemed to have sufficient knowledge and/or experience. If the company fulfills at least two of the following three criteria, it is considered a professional client according to the German Securities Trading Act (WHG) and is classified accordingly. Please answer the following questions truthfully."
+        },
+        "p2": "A change of classification can only be considered if the private customer fulfills at least two of the following three criteria:",
+        "form": {
+          "requirements": [
+            {
+              "id": 1,
+              "personType": 0,
+              "title": "transactions",
+              "text": "The customer has carried out an average of ten transactions of significant size per quarter during the last year on the market on which the financial instruments are traded for which he is to be classified as a professional customer"
+            },
+            {
+              "id": 2,
+              "personType": 0,
+              "title": "assets",
+              "text": "The customer has bank deposits and financial instruments with a value of more than 500,000 euros"
+            },
+            {
+              "id": 3,
+              "personType": 0,
+              "title": "experience",
+              "text": "The customer has practiced a profession in the capital market for at least one year that requires knowledge of the transactions, investment services, and ancillary investment services in question"
+            },
+            {
+              "id": 4,
+              "personType": 1,
+              "title": "balance",
+              "text": "The company reached a balance sheet total of more than 20,000,000 € last year"
+            },
+            {
+              "id": 5,
+              "personType": 1,
+              "title": "revenue",
+              "text": "The company generated sales revenue of more than 40,000,000 € last year"
+            },
+            {
+              "id": 6,
+              "personType": 1,
+              "title": "equity",
+              "text": "The company has more than 2,000,000 € of its own funds"
+            }
+          ],
+          "description": {
+            "0": "YES, I, {name}, shall be classified as a Professional Customer. Should the criteria confirmed above change, I, {name}, undertake to update them via the \"My Account\" area. At the request of the company, it is possible to reach an agreement on classification as a private customer within the meaning of the German Securities Trading Act. This agreement must be in writing.",
+            "1": "Yes, the company {name} should be classified as a professional client. If the criteria confirmed above change, the company commits to updating them. Upon request, the company may also enter into an agreement to be classified as a retail client under the Securities Trading Act. This agreement must be in writing."
+          },
+          "back": "Go Back",
+          "submit": "Accept and Continue"
+        },
+        "errors": {
+          "answer-min": "Please accept at least two of the requirements",
+          "read": "Please read and accept to be classified as a Professional Customer"
+        }
+      }
+    },
+    "custody": {
+      "title": "Your Crypto Wallet Has Been Created",
+      "subtitle": "Private, secure, and ready to use right away.",
+      "intro": "A wallet is necessary to securely store and manage your digital assets. It serves as your unique identifier on the blockchain and allows you to interact with decentralized applications.",
+      "missingWallet": {
+        "step0": { "continue": "Continue" },
+        "step1": {
+          "title": "Choose your option",
+          "subtitle": "You can use an existing wallet or easily create a new one.",
+          "connect": {
+            "title": "I have a wallet",
+            "subtitle": "Choose this option if you already have a wallet and know the private key."
+          },
+          "generate": {
+            "title": "Generate a new wallet",
+            "subtitle": "This is perfect if you're new to cryptocurrency wallets."
+          }
+        }
+      },
+      "external": {
+        "title": "Connect your wallet",
+        "subtitle": "Securely connect your wallet.",
+        "alert": {
+          "title": "Verification required",
+          "description": "You will need to sign a message to prove that you own this wallet."
+        },
+        "continue": "Connect wallet",
+        "walletConnect": {
+          "button": "Sign wallet request",
+          "prompt": "Please sign with your account",
+          "nonceError": "Failed to get nonce!"
+        }
+      },
+      "web3auth": {
+        "title": "Generate a new wallet",
+        "subtitle": "Securely generate a new wallet.",
+        "alert": {
+          "title": "TokenKey Wallet",
+          "description": "The TokenKey wallet is protected by your social media account or email. It is secure and simple. You will have full control of your tokens."
+        },
+        "continue": "Generate wallet",
+        "error": "An error happened",
+        "errorUser": "Could not retrieve user info.",
+        "validating": "We are validating your data.",
+        "connect": "Connect with your email {email} to recover your private key",
+        "connectButton": "Connection",
+        "alertPrivateKey": {
+          "title": "Important",
+          "description": "Never share your private key. Keep it in a safe place."
+        },
+        "retrieveButton": "Recover private key"
+      },
+      "walletLinked": {
+        "toast": { "success": "Wallet unlinked successfully 🎊" },
+        "title": "Connected Wallet",
+        "subtitle": "Your wallet is ready to use on the platform.",
+        "intro": "To store your tokens securely, you need a wallet. A wallet is a digital safe, similar to a deposit account, which you can access at any time via our dashboard. We provide the wallet free of charge through our partner Web3Auth.",
+        "tooltip": {
+          "trigger": "Learn more",
+          "content": "Your wallet is protected using a secure system called multi-party computation (MPC).\n\nInstead of storing a private key in one place, it's split across multiple parts and only comes together when you log in — meaning no one else (not even us) can access it.\n\nNo apps to install, no crypto knowledge needed — it just works.\n\nThis is powered by a technology called Web3Auth, which helps apps like ours create wallets without needing you to deal with private keys or crypto jargon."
+        },
+        "outro": "Once onboarding is complete and before investing, you can replace this wallet with one you created and manage externally. The wallet we've generated is yours alone — only you can access its private key — but we give you the freedom to use any wallet you already control.",
+        "addressLabel": "Your Wallet Address",
+        "copy": {
+          "button": "Copy",
+          "toast": {
+            "title": "Copied",
+            "description": "The information has been copied to the clipboard."
+          }
+        },
+        "connectionDateLabel": "Connection Date",
+        "walletTypeLabel": "Wallet Type",
+        "web3auth": "We have created this wallet for you",
+        "external": "Self-custodial wallet",
+        "retrievePrivateKey": "Private key retrieval",
+        "emailLabel": "Associated Email",
+        "loginMethodLabel": "Login Method",
+        "privateKey": "Private Key",
+        "change": "Change wallet",
+        "accept": "Continue"
+      },
+      "back": "Back",
+      "stepper": {
+        "intro": "Introduction",
+        "options": "Optionsciones",
+        "connection": "Connection"
+      },
+      "errors": {
+        "unknown-error": "An unknown error occurred, please try again",
+        "signature": "signature is not valid",
+        "already-used": "This wallet is already used by another user.",
+        "id-token": "Could not retrieve idToken.",
+        "crypto-wallet": "Could not verify wallet address.",
+        "same-email": "Connect with your same email {email} to recover your private key"
+      }
+    },
+    "kyc": {
+      "title": "Personal Verification",
+      "subtitle": "Complete identity verification",
+      "intro": "We are legally obliged to identify our investors for our protection and yours. For this purpose, we carry out an identification check with our partner WebID, which you can complete with your smartphone in just a few moments. The video identification process starts with a click below. Simply follow the instructions.",
+      "initial": {
+        "cta": "Start verification",
+        "items": {
+          "file": {
+            "description": "Have your valid ID card or passport handy",
+            "title": "Prepare your documents"
+          },
+          "lock": {
+            "description": "Your data is protected with bank-level encryption",
+            "title": "Secure process"
+          },
+          "check": {
+            "description": "The entire process takes less than 5 minutes",
+            "title": "Quick and easy"
+          }
+        }
+      },
+      "pending": {
+        "title": "We are processing your verification.",
+        "subtitle": "Please complete your identity verification with our provider.",
+        "cta": "Continue",
+        "alert": "If you have closed the verification window or need to restart the process, you can continue by clicking the button below."
+      },
+      "aborted": {
+        "title": "Verification cancelled",
+        "subtitle": "It looks like the process was interrupted. Do you want to try again?",
+        "cta": "Retry"
+      },
+      "failure": {
+        "title": "Verification failed",
+        "subtitle": "Something went wrong. Please try again.",
+        "cta": "Retry"
+      },
+      "verified": {
+        "title": "Verification successful",
+        "subtitle": "You're all set!",
+        "idVerified": "Identity verified",
+        "idConfirmed": "Your identity has been confirmed",
+        "secureAccount": "Secure account",
+        "completeAccess": "Full access to the platform",
+        "readyToInvest": "Ready to invest",
+        "explore": "Explore investment opportunities",
+        "cta": "View projects"
+      }
+    },
+    "help": {
+      "title": "Do you need help?",
+      "whatsapp": "Hi! I need help, can you help me?",
+      "intercom": "Live chat",
+      "help": "Help",
+      "close": "Close"
+    }
+  }
+}

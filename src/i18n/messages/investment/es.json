@@ -1,0 +1,244 @@
+{
+  "investment": {
+    "minimumInvestment": "Inversión mínima",
+    "expectedReturn": "Rentabilidad esperada",
+    "term": "Plazo",
+    "termValue": "{term, plural, one {# mes} other {# meses}}",
+    "apr": "TAE",
+    "progress": "Progreso de la inversión",
+    "progressShort": "Progreso",
+    "tokensSold": "{tokens} tokens vendidos",
+    "remainingTokens": "{tokens} tokens restantes",
+    "investmentCard": {
+      "investNow": "Invertir ahora",
+      "expandInvestment": "Ampliar inversión",
+      "investmentSummary": {
+        "title": "Tu inversión",
+        "amountInvested": "Cantidad invertida",
+        "tokensAcquired": "Tokens adquiridos"
+      }
+    },
+    "dialog": {
+      "title": "Invertir en {name}",
+      "description": "Rentabilidad esperada",
+      "step1": {
+        "form": {
+          "amount": "Monto a invertir",
+          "minimum": "Mínimo",
+          "maximum": "Máximo",
+          "currentSold": "Tu saldo actual",
+          "currentInvestment": "Inversión actual",
+          "investmentSummary": "Resumen de la inversión",
+          "investment": "Inversión",
+          "expectedReturn": "Retorno esperado",
+          "errors": {
+            "min": "El monto debe ser al menos {minInvestment}.",
+            "max": "El monto debe ser como máximo {maxInvestment}.",
+            "amount": "El monto debe ser un múltiplo del precio del token"
+          },
+          "alert": {
+            "title": "Fondos insuficientes",
+            "description": "No tienes suficiente saldo para realizar esta inversión.",
+            "addFunds": "Añadir fondos",
+            "continue": "Continuar"
+          }
+        }
+      },
+      "step2": {
+        "title": "Confirma tu inversión",
+        "subtitle": "Confirma tu inversión",
+        "investmentText": "Estás a punto de invertir {amount} {additional, selectordinal, one {adicionales } other {}}en este proyecto. Recibirás {tokenCount, plural, one {# token adicional} other {# tokens adicionales}}.",
+        "investmentTextNoOptin": "Estás a punto de invertir {amount} en este proyecto. Recibirás {tokenCount, plural, one {# token} other {# tokens}}.",
+        "investmentProtected": "Tu inversión está protegida y regulada por la CNMV. Más información sobre la seguridad de tu inversión en nuestra <link>documentación legal</link>.",
+        "formCommon": {
+          "intro": "Acabamos de enviarte a tu inbox los siguientes documentos. Léalos atentamente. Al hacer clic en \"Continuar\", confirmas que tus datos personales son correctos, que has recibido y leído todos los documentos y que aceptas las condiciones del contrato.",
+          "confirmMonthlyIncome": "Confirmo que el importe de mi inversión no supera el importe equivalente al doble de mi ingreso neto mensual medio.",
+          "buttons": {
+            "back": "Volver",
+            "submit": "Continuar",
+            "pending": "Procesando..."
+          }
+        },
+        "form1000": {
+          "p1": "Según los resultados de nuestra auditoría, tus conocimientos o experiencia no son suficientes para permitirte evaluar los riesgos asociados a una inversión en este instrumento financiero. Por lo tanto, no parece apropiado invertir en él. Después de reconocer y confirmar esta advertencia, no obstante, puedes continuar con la suscripción y realizar una inversión en el instrumento financiero. Al hacer clic en \"Continuar\", confirmas que has tomado nota de esta advertencia.",
+          "p2": "Para continuar con tu inversión, debes confirmar al menos una de las dos afirmaciones siguientes. Por favor, responde con la verdad.",
+          "confirmAsset": "Confirmo que tengo activos de libre disposición en forma de depósitos bancarios e instrumentos financieros por un importe mínimo de {amount}.",
+          "error": "Debes seleccionar al menos una de las opciones."
+        },
+        "form10000": {
+          "p1": "No disponemos de toda la información solicitada para poder evaluar si puedes evaluar los riesgos asociados a una inversión en este instrumento financiero. En este sentido, no podemos realizar una prueba de idoneidad, es decir, si una inversión puede resultar inadecuada. Tras reconocer y confirmar esta advertencia, podrás continuar con la suscripción y realizar una inversión en el instrumento financiero. Al hacer clic en \"Continuar\", confirmas que has tomado nota de esta advertencia.",
+          "error": "Debes seleccionar esta opción"
+        },
+        "form25000": {}
+      },
+      "step3": {
+        "title": "Autorizar Pago",
+        "amount": "Monto a Autorizar",
+        "selectMethod": "Seleccionar Método de Pago",
+        "default": "Predeterminado",
+        "addNewAccount": "Añadir nueva cuenta bancaria",
+        "iban": "IBAN",
+        "accountOwner": "Nombre del Titular",
+        "directDebitInfo": "Al hacer clic en \"Autorizar e Invertir\", autorizas un débito directo SEPA desde tu cuenta bancaria. El pago se capturará automáticamente una vez que tu inversión pase la revisión de cumplimiento.",
+        "authorizeAndInvest": "Autorizar e Invertir",
+        "authorizing": "Autorizando...",
+        "success": "¡Inversión creada exitosamente! Tu pago está autorizado y se capturará después de la aprobación de cumplimiento.",
+        "errors": {
+          "missingBankDetails": "Por favor proporciona los datos de tu cuenta bancaria"
+        }
+      }
+    },
+    "errors": {
+      "missing-kyc": "Debes completar el proceso de verificación de identidad antes de poder invertir con nosotros.",
+      "already-invested": "No se permiten múltiples inversiones para el mismo proyecto.",
+      "already-has-order": "Ya tienes un pedido para este proyecto. Solo se permite un pedido por proyecto."
+    },
+    "warning": "<strong>Advertencia:</strong> Esta inversión implica riesgos, incluida la posible pérdida total del capital. Los rendimientos no están garantizados y pueden ser inferiores a los estimados.",
+    "list": {
+      "title": "Mis Inversiones",
+      "description": "Ver y gestionar todas tus inversiones",
+      "empty": {
+        "title": "No tienes inversiones aún",
+        "description": "Aún no has realizado ninguna inversión. Explora nuestros proyectos para comenzar.",
+        "cta": "Explorar Proyectos"
+      },
+      "table": {
+        "title": "Tus Inversiones",
+        "headers": {
+          "project": "Proyecto",
+          "amount": "Monto",
+          "paymentReference": "Referencia de Pago",
+          "compliancestatus": "Estado de cumplimiento",
+          "paymentstatus": "Estado del pago",
+          "date": "Fecha",
+          "actions": "Acciones"
+        },
+        "view": "Ver"
+      },
+      "compliance_status": {
+        "concedus_100_release_uncompromising": "Liberación sin condiciones",
+        "concedus_200_waiting_for_additional_documents": "En espera de documentos adicionales",
+        "concedus_300_rejected_aml_sanctions_pep": "Rechazado por AML, sanciones o PEP",
+        "concedus_301_rejected_no_adequacy_final": "Rechazado por falta de idoneidad (final)",
+        "concedus_302_rejected_process_data_error_fraud": "Rechazado por error de datos del proceso o fraude",
+        "concedus_303_rejected_other": "Rechazado por otros motivos",
+        "concedus_400_inquiry_asset_situation": "Consulta sobre la situación patrimonial",
+        "concedus_401_inquiry_other": "Otra consulta",
+        "concedus_402_missing_documents": "Documentos faltantes",
+        "concedus_403_missing_adequacy_information": "Falta información de idoneidad",
+        "concedus_500_payment_expired": "Pago caducado",
+        "concedus_501_payment_error_other": "Error de pago (otro)",
+        "concedus_502_payment_partial": "Pago parcial",
+        "concedus_503_payment_full": "Pago completo",
+        "concedus_600_payment_deadline_expired_7_days": "Plazo de pago vencido 7 días",
+        "concedus_601_payment_deadline_expired_14_days": "Plazo de pago vencido 14 días",
+        "concedus_602_payment_deadline_expired_20_days": "Plazo de pago vencido 20 días",
+        "concedus_700_cancellation_possible": "Cancelación posible",
+        "concedus_701_cancellation_not_possible_deadline": "Cancelación no posible por plazo",
+        "concedus_702_cancellation_not_possible_other": "Cancelación no posible por otros motivos",
+        "concedus_800_data_change_success": "Cambio de datos exitoso",
+        "concedus_801_data_change_failed_data_error": "Fallo en el cambio de datos por error de datos",
+        "concedus_802_data_change_failed_other": "Fallo en el cambio de datos por otros motivos",
+        "concedus_compliance_error": "Error de cumplimiento",
+        "concedus_pending_compliance_review": "Revisión de cumplimiento pendiente"
+      },
+      "payment_status": {
+        "secupay_created": "Creado",
+        "secupay_processing": "En procesamiento",
+        "secupay_failed": "Fallido",
+        "secupay_approved": "Aprobado",
+        "secupay_pending": "Pendiente",
+        "secupay_received": "Recibido",
+        "secupay_collection": "En cobro",
+        "secupay_ok": "Correcto",
+        "secupay_shipped": "Enviado",
+        "secupay_collected": "Cobrado",
+        "// secupay_authorization_error": "Error de autorización"
+      }
+    },
+    "detail": {
+      "back": "Inversiones",
+      "title": "Detalles de la Inversión",
+      "description": "Ver los detalles de tu inversión e información de pago",
+      "summary": {
+        "title": "Resumen de la Inversión",
+        "project": "Proyecto",
+        "investmentAmount": "Monto de la Inversión",
+        "tokens": "Tokens",
+        "tokensCount": "{count} tokens",
+        "perToken": "por token",
+        "created": "Creado",
+        "expectedReturn": "Rentabilidad Esperada",
+        "totalExpectedValue": "Valor Total Esperado"
+      },
+      "paymentInstructions": {
+        "title": "Instrucciones de Pago",
+        "description": "Por favor realiza una transferencia bancaria con los siguientes datos. Asegúrate de incluir la referencia de pago para garantizar una correcta reconciliación.",
+        "bank": "Banco",
+        "accountName": "Nombre de la Cuenta",
+        "iban": "IBAN",
+        "swift": "SWIFT/BIC",
+        "paymentReference": "Referencia de Pago",
+        "important": "Importante: Incluye la referencia de pago",
+        "importantDescription": "Asegúrate de incluir la referencia de pago {reference} en tu transferencia bancaria. Esto es esencial para que podamos asociar tu pago con tu inversión.",
+        "payNow": "Pagar Ahora"
+      },
+      "paymentReceived": {
+        "title": "Pago Recibido",
+        "description": "Tu pago ha sido recibido y procesado exitosamente."
+      },
+      "viewContract": "Ver Contrato",
+      "viewingContract": "Cargando...",
+      "contractSigning": {
+        "title": "Firmar Contrato de Inversión",
+        "description": "Antes de proceder con el pago, debes revisar y firmar el contrato de inversión. Al firmar, confirmas que has leído y aceptas los términos y condiciones.",
+        "button": "Firmar Contrato"
+      },
+      "complianceReview": {
+        "title": "En Revisión de Cumplimiento",
+        "description": "Tu contrato de inversión ha sido enviado y está actualmente en revisión de cumplimiento. Este proceso suele tardar 1-2 días hábiles.",
+        "note": "Se te notificará una vez que la revisión de cumplimiento esté completa y puedas proceder con el pago."
+      },
+      "rejection": {
+        "title": "Inversión Rechazada",
+        "description": "Tu solicitud de inversión ha sido rechazada durante el proceso de revisión de cumplimiento.",
+        "note": "Esta decisión se tomó en base a requisitos regulatorios y verificaciones de cumplimiento.",
+        "nextSteps": "Próximos Pasos",
+        "step1": "Revisa tu correo electrónico para obtener información detallada sobre el rechazo",
+        "step2": "Contacta con soporte si tienes preguntas o necesitas aclaraciones",
+        "step3": "Podrás volver a solicitar después de abordar los problemas mencionados"
+      },
+      "payment": {
+        "title": "Completar Pago",
+        "retryTitle": "Reintentar Pago",
+        "amount": "Monto a Pagar",
+        "selectMethod": "Seleccionar Método de Pago",
+        "default": "Predeterminado",
+        "addNewAccount": "Añadir nueva cuenta bancaria",
+        "iban": "IBAN",
+        "accountOwner": "Nombre del Titular",
+        "directDebitInfo": "Al hacer clic en \"Pagar Ahora\", autorizas un débito directo SEPA desde tu cuenta bancaria. El monto será debitado en 1-3 días hábiles.",
+        "payNow": "Pagar Ahora",
+        "retryCapture": "Reintentar Captura de Pago",
+        "processing": "Procesando...",
+        "success": "Pago iniciado exitosamente. Serás notificado una vez que el pago sea confirmado.",
+        "errors": {
+          "missingBankDetails": "Por favor proporciona los datos de tu cuenta bancaria"
+        }
+      },
+      "paymentProcessing": {
+        "title": "Procesando Pago",
+        "description": "Tu pago está siendo procesado. Esto suele tardar 1-3 días hábiles. Serás notificado una vez que el pago sea confirmado."
+      },
+      "paymentFailed": {
+        "title": "Pago Fallido",
+        "description": "Desafortunadamente, tu pago no pudo ser procesado. Esto puede deberse a fondos insuficientes o una cuenta bancaria inválida. Por favor intenta de nuevo con otro método de pago."
+      },
+      "paymentCaptureFailed": {
+        "title": "Captura de Pago Fallida",
+        "description": "No hemos podido completar tu pago. No se ha realizado ningún cargo. Ponte en contacto con soporte para obtener ayuda.",
+        "description2": "Por favor haz clic en el botón de abajo para reintentar la captura del pago."
+      }
+    }
+  }
+}

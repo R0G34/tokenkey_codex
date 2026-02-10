@@ -1,0 +1,47 @@
+{
+  "email": {
+    "verify": {
+      "button": "Sicher anmelden",
+      "heading": "🪄 Dein magischer Link",
+      "preview": "Melde dich bei deinem TokenKey-Konto an",
+      "subject": "Sicher auf TokenKey zugreifen",
+      "text": "Zu deiner Sicherheit ermöglicht dieser Link den direkten Zugriff auf dein Konto bei TokenKey. Klicke auf die Schaltfläche unten, um dich bei deinem Konto anzumelden. Dieser Link ist 5 Minuten gültig:",
+      "text2": "Oder kopiere diese URL und füge sie in deinen Browser ein:",
+      "noticeTitle": "Sicherheitshinweis:",
+      "notice": "Wenn du diese E-Mail nicht angefordert hast, kannst du sie sicher ignorieren. Jemand hat möglicherweise versehentlich deine E-Mail-Adresse eingegeben.",
+      "otp": {
+        "heading": "🪄 Ihr Authentifizierungs-Code",
+        "text": "Zu Ihrer Sicherheit können Sie mit diesem Code direkt auf Ihr Konto bei TokenKey zugreifen. Geben Sie den Code ein oder kopieren Sie ihn und fügen Sie ihn in das geöffnete Fenster Ihres Browsers ein:",
+        "hint": "(Dieser Code ist 5 Minuten gültig)"
+      }
+    },
+    "welcome": {
+      "heading": "Willkommen bei TokenKey!",
+      "greeting": "Wir freuen uns, dich an Bord zu haben!",
+      "introText": "Vielen Dank, dass du TokenKey beigetreten bist, deinem Tor zu intelligenten Immobilieninvestitionen. Egal, ob du dein Vermögen vermehren oder dein Portfolio diversifizieren möchtest, wir begleiten dich auf jedem Schritt.",
+      "nextStepsText": "Das kannst du als Nächstes tun:",
+      "step1": "Entdecken Sie die auf Ihrem Dashboard verfügbaren Projekte.",
+      "step2": "Diversifiziere dein Portfolio mit einzigartigen Asset-Token.",
+      "step3": "Beginne mit einer Investition ab nur 100 €.",
+      "ctaText": "Gehe zu deinem Dashboard",
+      "subject": "Willkommen bei TokenKey: Investiere ab 100 €!"
+    },
+    "transaction-completed": {
+      "heading": "Deine Transaktion wurde abgeschlossen!",
+      "greeting": "Gute Neuigkeiten!",
+      "mainText": "Wir haben deine Überweisung erhalten und deine Transaktion ist nun abgeschlossen. Die Gelder sind jetzt auf deinem TokenKey-Konto verfügbar.",
+      "amountText": "Eingezahlter Betrag:",
+      "referenceText": "Referenz:",
+      "nextStepsText": "Was kannst du jetzt tun?",
+      "step1": "Entdecken Sie die Projekte, in die Sie investieren können.",
+      "step2": "Kaufe Token und diversifiziere dein Portfolio.",
+      "step3": "Überprüfe jederzeit dein Guthaben und deine Transaktionen.",
+      "ctaText": "Gehe zu deinem Konto",
+      "subject": "Deine {amount} Einzahlung ist bereit, {firstname}!"
+    },
+    "footer": {
+      "footerText": "Alle Rechte vorbehalten.",
+      "supportText": "Brauchst du Hilfe? Kontaktiere uns unter"
+    }
+  }
+}

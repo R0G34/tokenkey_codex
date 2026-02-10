@@ -1,0 +1,47 @@
+{
+  "email": {
+    "verify": {
+      "button": "Sign In Securely",
+      "heading": "🪄 Your magic link",
+      "preview": "Sign in to your TokenKey account",
+      "subject": "Securely access TokenKey",
+      "text": "For your security, this link allows you to directly access your account on TokenKey. Click the button below to sign in to your account. This link is valid for 5 minutes:",
+      "text2": "Or copy and paste this URL into your browser:",
+      "noticeTitle": "Security Notice:",
+      "notice": "If you didn't request this email, you can safely ignore it. Someone may have entered your email address by mistake.",
+      "otp": {
+        "heading": "🪄 Your verification code",
+        "text": "For your security, this code allows you to directly access your account on TokenKey. Enter or copy and paste the code into the open window of your browser:",
+        "hint": "(This code is valid for 5 minutes)"
+      }
+    },
+    "welcome": {
+      "heading": "Welcome to TokenKey!",
+      "greeting": "We're excited to have you on board!",
+      "introText": "Thank you for joining TokenKey, your gateway to smart real estate investing. Whether you're looking to grow your wealth or diversify your portfolio, we're here to guide you every step of the way.",
+      "nextStepsText": "Here's what you can do next:",
+      "step1": "Explore the projects available on your dashboard.",
+      "step2": "Diversify your portfolio with unique asset tokens.",
+      "step3": "Start investing with as little as €100.",
+      "ctaText": "Go to your dashboard",
+      "subject": "Welcome to TokenKey: Invest from €100!"
+    },
+    "transaction-completed": {
+      "heading": "Your transaction has been completed!",
+      "greeting": "Good news!",
+      "mainText": "We have received your bank transfer and your transaction is now complete. The funds are now available in your TokenKey account.",
+      "amountText": "Amount deposited:",
+      "referenceText": "Reference:",
+      "nextStepsText": "What can you do now?",
+      "step1": "Explore the projects available to invest in.",
+      "step2": "Buy tokens and diversify your portfolio.",
+      "step3": "Check your balance and transactions at any time.",
+      "ctaText": "Go to your account",
+      "subject": "Your {amount} deposit is ready, {firstname}!"
+    },
+    "footer": {
+      "footerText": "All rights reserved.",
+      "supportText": "Need help? Contact us at"
+    }
+  }
+}

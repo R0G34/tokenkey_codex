@@ -1,0 +1,156 @@
+{
+  "account": {
+    "title": "Configuración de la cuenta",
+    "description": "Administra la información y preferencias de tu cuenta",
+    "editButton": "Editar",
+    "editPage": {
+      "title": "Editar cuenta",
+      "description": "Actualiza tu información personal",
+      "cancelButton": "Cancelar",
+      "saveButton": "Guardar cambios"
+    },
+    "editExperience": {
+      "title": "Editar experiencia",
+      "description": "Actualiza tu experiencia de inversión y evaluación de conocimientos",
+      "cardTitle": "Evaluación de experiencia de inversión",
+      "cardDescription": "Para actualizar tu experiencia de inversión, deberás completar el cuestionario de experiencia de nuevo. Esto reemplazará tu evaluación actual.",
+      "startButton": "Iniciar evaluación"
+    },
+    "accountOverview": {
+      "title": "Resumen de la cuenta",
+      "email": "Correo electrónico",
+      "memberSince": "Miembro desde",
+      "accountCreated": "Cuenta creada",
+      "userType": "Tipo de cuenta",
+      "userTypeCustomer": "Cliente",
+      "userTypeCompany": "Empresa"
+    },
+    "companyInfo": {
+      "title": "Información de la empresa",
+      "name": "Nombre de la empresa",
+      "legalForm": "Forma jurídica",
+      "foundingDate": "Fecha de constitución",
+      "registryNo": "Número de registro",
+      "registryNumber": "Número de registro mercantil",
+      "registryCourt": "Registro mercantil",
+      "taxId": "NIF/CIF",
+      "address": "Dirección de la empresa",
+      "naturalPerson": "Persona física",
+      "legalPerson": "Persona jurídica",
+      "isPep": "Persona políticamente expuesta (PEP)",
+      "isFictitiousUbo": "UBO ficticio"
+    },
+    "companyRoles": {
+      "title": "Roles y propiedad de la empresa",
+      "rolesTitle": "Tu rol en la empresa",
+      "representative": "Representante / Representante legal",
+      "fictitiousBeneficialOwner": "Beneficiario ficticio",
+      "authorizedBeneficialOwner": "Beneficiario autorizado",
+      "capitalShares": "Participaciones de capital",
+      "votingRights": "Derechos de voto",
+      "powerOfAttorney": "Poder notarial"
+    },
+    "representatives": {
+      "title": "Representantes"
+    },
+    "beneficialOwners": {
+      "title": "Beneficiarios reales"
+    },
+    "uboAml": {
+      "title": "UBO & AML",
+      "description": "Documentación de cumplimiento del Beneficiario Final y Prevención del Blanqueo de Capitales."
+    },
+    "bankInfo": {
+      "title": "Cuenta Bancaria",
+      "holder": "Titular de la cuenta",
+      "bank": "Nombre del banco",
+      "iban": "IBAN",
+      "swift": "SWIFT/BIC",
+      "location": "Ubicación del banco",
+      "currency": "Moneda",
+      "noAccount": "Aún no se ha añadido ninguna cuenta bancaria. Haz clic en Editar para añadir una.",
+      "otherAccounts": "{count, plural, one {+# otra cuenta} other {+# otras cuentas}}"
+    },
+    "bankAccounts": {
+      "title": "Cuentas Bancarias",
+      "description": "Gestiona tus cuentas bancarias para pagos",
+      "listTitle": "Tus Cuentas Bancarias",
+      "addAccount": "Añadir Cuenta",
+      "noAccounts": "Aún no se han añadido cuentas bancarias. Añade una para comenzar.",
+      "default": "Predeterminada",
+      "setDefault": "Establecer como predeterminada",
+      "defaultSuccess": "Cuenta bancaria establecida como predeterminada",
+      "deleteSuccess": "Cuenta bancaria eliminada",
+      "addSuccess": "Cuenta bancaria añadida",
+      "form": {
+        "title": "Añadir Cuenta Bancaria",
+        "description": "Introduce los datos de tu cuenta bancaria a continuación",
+        "iban": "IBAN",
+        "holder": "Nombre del Titular",
+        "bank": "Nombre del Banco",
+        "swift": "SWIFT/BIC",
+        "setAsDefault": "Establecer como predeterminada",
+        "setAsDefaultDescription": "Usar esta cuenta para futuros pagos",
+        "cancel": "Cancelar",
+        "add": "Añadir Cuenta",
+        "adding": "Añadiendo...",
+        "errors": {
+          "required": "IBAN y Titular de la cuenta son obligatorios"
+        }
+      }
+    },
+    "experience": {
+      "title": "Experiencia de inversión",
+      "consent": "Consentimiento",
+      "score": "Puntuación de experiencia",
+      "riskConsent": "Reconocimiento de riesgo",
+      "professional": "Inversor profesional",
+      "knowledge": "Evaluación de conocimientos",
+      "yes": "Sí",
+      "no": "No",
+      "completed": "Completado",
+      "notCompleted": "No completado",
+      "answers": "Respuestas",
+      "investmentExperience": "Experiencia de inversión",
+      "requirementsMet": "Requisitos cumplidos"
+    },
+    "personalInfo": {
+      "title": "Información personal",
+      "description": "Actualiza tus datos personales",
+      "legend": "Información Personal",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "birthDate": "Fecha de nacimiento",
+      "birthplace": "Lugar de nacimiento",
+      "pickADate": "Selecciona una fecha",
+      "placeOfBirth": "Lugar de nacimiento",
+      "nationality": "Nacionalidad",
+      "phoneNumber": "Teléfono",
+      "kycStatus": "Verificación KYC",
+      "kycVerified": "Verificado",
+      "kycPending": "Pendiente",
+      "pepStatus": "Estado PEP",
+      "isPep": "Sí",
+      "notPep": "No",
+      "gender": "Género",
+      "genderMale": "Masculino",
+      "genderFemale": "Femenino",
+      "genderOther": "Otro",
+      "salutation": "Tratamiento",
+      "saveButton": "Guardar cambios"
+    },
+    "address": {
+      "title": "Dirección",
+      "legend": "Dirección",
+      "street": "Calle",
+      "streetNumber": "Número",
+      "postcode": "Código postal",
+      "city": "Ciudad",
+      "country": "País"
+    },
+    "messages": {
+      "saveSuccess": "Información de la cuenta actualizada exitosamente",
+      "saveError": "Error al actualizar la información de la cuenta"
+    }
+  }
+}

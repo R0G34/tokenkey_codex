@@ -1,0 +1,3 @@
+export type SendContractResponse = {
+  identLinks: []
+}

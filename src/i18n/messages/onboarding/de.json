@@ -1,0 +1,657 @@
+{
+  "onboarding": {
+    "// onboardingPage": {
+      "subtitle": "Ihre beste Immobilieninvestition dank Tokenisierung",
+      "catchphrase": "Ab 100 € einfach und sicher in das Immobiliengeschäft investieren",
+      "form": {
+        "title": "Profil vervollständigen",
+        "description": "Wir benötigen einige weitere Details, um Ihre Erfahrung zu personalisieren",
+        "person": "Privatperson",
+        "company": "Unternehmen",
+        "firstname": "Vorname",
+        "surname1": "Erster Nachname",
+        "surname2": "Zweiter Nachname",
+        "companyName": "Firmenname",
+        "taxId": "Steuernummer/VAT",
+        "phone": "Telefon"
+      }
+    },
+    "layout": {
+      "title": "Registrierung",
+      "subtitle": "Vervollständigen Sie diese Schritte, um in Immobilien zu investieren",
+      "progress": {
+        "steps": "{completedSteps} von {totalSteps} abgeschlossen",
+        "percentage": "{progressPercentage}% abgeschlossen"
+      }
+    },
+    "title": "Profil vervollständigen",
+    "menu": {
+      "company": {
+        "title": "Unternehmen",
+        "description": "Geben Sie Ihre Unternehmensinformationen an"
+      },
+      "personalData": {
+        "title": "Persönliche Informationen",
+        "description": "Geben Sie Ihre grundlegenden persönlichen Daten ein, um zu beginnen"
+      },
+      "pep": {
+        "title": "Politisch exponierte Person",
+        "description": "Geben Sie Informationen an, um Ihren Status als politisch exponierte Person zu bestätigen"
+      },
+      "wphg": {
+        "title": "Erfahrung und Kenntnisse",
+        "description": "Teilen Sie Ihre Erfahrungen und Kenntnisse im Finanzbereich mit"
+      },
+      "custody": {
+        "title": "Verwahrung",
+        "description": "Geben Sie die Details Ihrer Krypto-Wallet an, um fortzufahren"
+      },
+      "kyc": {
+        "title": "KYC-Verifizierung",
+        "description": "Vervollständigen Sie die KYC-Verifizierung durch Angabe Ihrer persönlichen Daten"
+      },
+      "representatives": {
+        "title": "Vertreter",
+        "description": "Unternehmensvertreter hinzufügen"
+      },
+      "beneficialOwners": {
+        "title": "Wirtschaftliche Eigentümer",
+        "description": "Wirtschaftliche Eigentümer identifizieren"
+      },
+      "uboAml": {
+        "title": "UBO & AML",
+        "description": "Geldwäscheprüfungen"
+      },
+      "signout": "Abmelden",
+      "back": "Zurück zur Startseite",
+      "completeProfile": "Profil vervollständigen",
+      "hide": "Ausblenden",
+      "show": "Einblenden",
+      "completeSteps": "Abgeschlossene Schritte"
+    },
+    "steps": {
+      "edit": "Überprüfen und Bearbeiten",
+      "start": "Schritt starten",
+      "locked": "Gesperrt"
+    },
+    "toast": {
+      "success": "Daten erfolgreich gespeichert 🎊",
+      "error": "Ups! Etwas ist schiefgelaufen."
+    },
+    "company": {
+      "title": "Unternehmen",
+      "description": "Geben Sie Ihre Unternehmensinformationen an",
+      "form": {
+        "companyInformation": {
+          "legend": "Unternehmensprofil",
+          "name": "Name des Unternehmens",
+          "foundingDate": "Gründungsdatum",
+          "pickADate": "Datum auswählen",
+          "registryCourt": "Amtsgericht",
+          "legalForm": "Rechtsform",
+          "legalFormPlaceholder": "Wählen Sie einen Typ",
+          "taxId": "Steuernummer",
+          "registryNo": "Registernummer (falls vorhanden)",
+          "registryNumber": "Umsatzsteuer-Identifikationsnummer"
+        },
+        "address": {
+          "legend": "Adresse",
+          "street": "Straße",
+          "streetNumber": "Hausnummer",
+          "postcode": "Postleitzahl",
+          "city": "Stadt",
+          "country": "Land"
+        },
+        "submit": "Akzeptieren und Fortfahren",
+        "errors": {
+          "name": "Name ist erforderlich",
+          "legalForm": "Rechtsform ist erforderlich",
+          "taxId": "Steuernummer ist erforderlich",
+          "registryNumber": "Umsatzsteuer-Identifikationsnummer ist erforderlich",
+          "foundingDate": "Gründungsdatum ist erforderlich",
+          "street": "Straße ist erforderlich",
+          "streetNumber": "Hausnummer ist erforderlich",
+          "postcode": "Postleitzahl ist erforderlich",
+          "city": "Stadt ist erforderlich",
+          "country": "Land ist erforderlich"
+        }
+      },
+      "legalForm": {
+        "AG": "Aktiengesellschaft",
+        "eG": "eingetragene Genossenschaft",
+        "GmbH": "Ges. M. beschr. Haftung",
+        "GmbH_CoKG": "GmbH&Co. KG",
+        "KG": "Kommanditgesellschaft",
+        "Ltd": "Limited Company",
+        "Stiftung": "Stiftung"
+      }
+    },
+    "personalData": {
+      "title": "Persönliche Informationen",
+      "subtitle": "Geben Sie Ihre Daten ein, um mit dem Investieren zu beginnen",
+      "form": {
+        "accountType": {
+          "legend": "Kontotyp",
+          "naturalPerson": "Natürliche Person",
+          "legalPerson": "Juristische Person (Unternehmen)"
+        },
+        "personalInformation": {
+          "legend": "Persönliche Informationen",
+          "firstName": "Vorname",
+          "lastName": "Nachname",
+          "birthDate": "Geburtsdatum",
+          "pickADate": "Datum auswählen",
+          "placeOfBirth": "Geburtsort",
+          "nationality": "Nationalität"
+        },
+        "address": {
+          "legend": "Adresse",
+          "street": "Straße",
+          "streetNumber": "Hausnummer",
+          "postcode": "Postleitzahl",
+          "city": "Stadt",
+          "country": "Land"
+        },
+        "roles": {
+          "legend": "Ihre Rolle im Unternehmen",
+          "desc": "Um Ihre Beziehung zum Unternehmen zu bestimmen, beantworten Sie bitte die folgenden Aussagen wahrheitsgemäß.",
+          "representative": "Ich bin Mitglied des Vertretungsorgans / der gesetzliche Vertreter",
+          "fictitiousBeneficialOwner": {
+            "label": "Ich bin ein fiktiver wirtschaftlicher Eigentümer",
+            "tooltip": "Wenn aus der Struktur keine natürliche Person mit mehr als 25 % des Kapitals oder der Stimmrechte ermittelt werden kann, beispielsweise im Falle eines Streubesitzes, gilt ein gesetzlicher Vertreter als wirtschaftlicher Eigentümer."
+          },
+          "authorizedBeneficialOwner": {
+            "label": "Ich bin ein berechtigter wirtschaftlicher Eigentümer",
+            "capitalShares": "% der Kapitalanteile",
+            "votingRights": "% der Stimmrechte"
+          },
+          "powerOfAttorney": "Ich habe eine Vollmacht"
+        },
+        "submit": "Akzeptieren und Fortfahren",
+        "errors": {
+          "forename": "Vorname ist erforderlich",
+          "surname": "Nachname ist erforderlich",
+          "birthdate": "Geburtsdatum ist erforderlich",
+          "birthplace": "Geburtsort ist erforderlich",
+          "nationality": "Nationalität ist erforderlich",
+          "street": "Straße ist erforderlich",
+          "streetNumber": "Hausnummer ist erforderlich",
+          "postcode": "Postleitzahl ist erforderlich",
+          "city": "Stadt ist erforderlich",
+          "country": "Land ist erforderlich",
+          "roles": "Mindestens eine Rolle muss ausgewählt sein."
+        }
+      }
+    },
+    "bank": {
+      "form": {
+        "legend": "Bankverbindung",
+        "holder": "Kontoinhaber",
+        "bank": "Bank",
+        "swift": "SWIFT/BIC",
+        "iban": "IBAN",
+        "location": "Sitz der Bank",
+        "currency": "Währung des angegebenen Kontos",
+        "errors": {
+          "holder": "Kontoinhaber ist erforderlich.",
+          "bank": "Bank ist erforderlich.",
+          "swift": "SWIFT/BIC ist erforderlich.",
+          "iban": "IBAN ungültig.",
+          "location": "Sitz der Bank ist erforderlich.",
+          "currency": "Währung des angegebenen Kontos ist erforderlich."
+        }
+      }
+    },
+    "pepStatus": {
+      "title": "Status als politisch exponierte Person",
+      "subtitle": "Geben Sie Ihre politische Zugehörigkeit an",
+      "intro": "Politisch exponierte Personen (PEP) sind Personen, die hochrangige Regierungsämter bekleiden, wie Minister, Staatssekretäre oder Botschafter. Wenn Sie eine solche Position innehaben oder einer politisch exponierten Person nahestehen, bestätigen Sie dies bitte:",
+      "form": {
+        "//status": "JA, ich bin eine politisch exponierte Person (PEP), ein unmittelbares Familienmitglied einer politisch exponierten Person oder eine Person, die einer politisch exponierten Person nahesteht.",
+        "status": "Ich bin eine politisch exponierte Person (PEP), ein unmittelbares Familienmitglied einer politisch exponierten Person oder eine Person, die einer politisch exponierten Person nahesteht:",
+        "yes": "Ja",
+        "no": "Nein",
+        "//submitHint": "Mit dem Klick auf Akzeptieren und Fortfahren bestätige ich, dass ich auf eigene Rechnung und in meinem wirtschaftlichen Interesse handle.",
+        "submitHint": "Mit dem Klick bestätige ich, dass ich auf eigene Rechnung und in meinem wirtschaftlichen Interesse handle.",
+        "submit": "Akzeptieren und Fortfahren"
+      }
+    },
+    "representatives": {
+      "title": "Vertreter",
+      "subtitle": "Unternehmensvertreter hinzufügen",
+      "subject": "Mitglieder der Vertretungsorgans oder gesetzliche Vertreter",
+      "intro": "Bitte tragen Sie alle Mitglieder des Vertretungsorgans oder gesetzliche Vertreter ein.",
+      "addNaturalPerson": "Natürliche Person hinzufügen",
+      "addLegalPerson": "Juristische Person hinzufügen",
+      "acceptAndContinue": "Übernehmen und weiter",
+      "naturalPersonForm": {
+        "forename": "Vorname",
+        "surname": "Nachname",
+        "errors": {
+          "forename": "Vorname ist erforderlich",
+          "surname": "Nachname ist erforderlich"
+        }
+      },
+      "alertDeleteConfirm": {
+        "title": "Sind Sie sicher?",
+        "description": "Diese Aktion kann nicht rückgängig gemacht werden.",
+        "cancel": "Abbrechen",
+        "continue": "Fortsetzen"
+      },
+      "addMember": "Mitglied hinzufügen",
+      "cancel": "Abbrechen",
+      "save": "Speichern"
+    },
+    "beneficialOwners": {
+      "title": "Wirtschaftliche Eigentümer",
+      "subtitle": "Wirtschaftliche Eigentümer identifizieren",
+      "subject": "Wirtschaftlich Berechtigte",
+      "intro": "Aus rechtlichen Gründen müssen wir die wirtschaftlich Berechtigten des von Ihnen vertretenen Unternehmens erfragen. Bitte tragen Sie hier alle natürlichen Personen ein, die mehr als 25% des Kapitals oder der Stimmrechte des Unternehmens besitzen.",
+      "alert": {
+        "title": "Wirtschaftlich Berechtigter ist",
+        "list": [
+          "die natürliche Person, in deren Eigentum oder unter deren Kontrolle eine juristische Person letztlich steht, oder",
+          "die natürliche Person, auf deren Veranlassung eine Transaktion letztlich durchgeführt oder eine Geschäftsbeziehung letztlich begründet wird."
+        ],
+        "p1": "Dazu zählt jede natürliche Person, die unmittelbar oder mittelbar mehr als 25% der Kapitalanteile hält, mehr als 25% der Stimmrechte kontrolliert oder auf vergleichbare Weise Kontrolle ausübt.",
+        "p2": "Ist die Struktur des Unternehmens so aufgebaut, dass nicht in der unmittelbaren Beteiligungsebene eine natürliche Person diese Voraussetzungen erfüllt, so ist die Unternehmensstruktur so umfassend zu analysieren, bis eine oder mehrere natürliche Personen identifiziert werden. Gibt es mehrere wirtschaftlich Berechtigte, so sind diese alle aufzuführen.",
+        "p3": "Ab der zweiten Beteiligungsebene am Vertragspartner gilt nicht mehr der 25%-Schwellenwert. Hier ist mir dann ein Beteiligungsstrang weiter zu verfolgen, wenn tatsächlich Kontrolle auf den jeweiligen unmittelbar Beteiligten ausgeübt werden kann. Kontrolle übt ein mittelbar Beteiligter demnach aus, wenn er an dem betreffenden unmittelbar Beteiligten letztlich mehr als 50% der Kapitalanteile hält, mehr als 50% der Stimmrechte kontrolliert oder beherrschenden Einfluss ausüben kann."
+      },
+      "personRegistrable": "Personen, die Sie als wirtschaftlich berechtigt eintragen können",
+      "personRegistrableDescription": "Unten finden Sie eine Liste der eingetragenen gesetzlichen Vertreter. Falls einer der bereits eingetragenen gesetzlichen Vertreter auch eine wirtschaftlich berechtigte Person ist, klicken Sie bitte auf den Button neben dem Namen, um die erforderlichen Daten zu ergänzen.",
+      "list": {
+        "title": "Wirtschaftlich berechtigte Personen",
+        "addButton": "Weitere Person hinzufügen",
+        "alert": {
+          "title": "Sind Sie sicher?",
+          "description": "Diese Aktion kann nicht rückgängig gemacht werden.",
+          "cancel": "Abbrechen",
+          "continue": "Fortsetzen"
+        }
+      },
+      "form": {
+        "title": "Wirtschaftlich berechtigte Person hinzufügen",
+        "forename": "Vorname",
+        "surname": "Nachname",
+        "birthDate": "Geburtsdatum",
+        "birthDatePlaceholder": "Wählen Sie ein Datum",
+        "nationality": "Staatsangehörigkeit",
+        "nationalityPlaceholder": "Staatsangehörigkeit",
+        "placeOfBirth": "Geburtsort",
+        "isPep": "Ist eine PEP",
+        "fictitiousUBO": "Fiktiv wirtsch. berechtigt",
+        "capitalShares": "% Kapitalanteile",
+        "votingRights": "% Stimmrechte",
+        "address": {
+          "title": "Adresse",
+          "streetNumber": "Straße & Hausnummer",
+          "postcode": "Postleitzahl",
+          "city": "Stadt",
+          "country": "Land",
+          "countryPlaceholder": "Wählen Sie ein Land"
+        },
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "errors": {
+          "id": "Eine ID ist erforderlich.",
+          "forename": "Vorname ist erforderlich.",
+          "surname": "Nachname ist erforderlich.",
+          "birthdate": "Ein Geburtsdatum ist erforderlich.",
+          "nationality": "Staatsangehörigkeit ist erforderlich",
+          "birthplace": "Geburtsort ist erforderlich.",
+          "streetAndNumber": "Straße ist erforderlich.",
+          "postcode": "Postleitzahl ist erforderlich.",
+          "city": "Stadt ist erforderlich.",
+          "country": "Land ist erforderlich."
+        }
+      },
+      "acceptAndContinue": "Übernehmen und weiter"
+    },
+    "uboAml": {
+      "title": "UBO & AML",
+      "subtitle": "Geldwäscheprüfungen",
+      "subject": "Weitere Dokumente",
+      "p1": "Um unsere Prüfung erfolgreich durchführen zu können, benötigen wir folgende relevante Unterlagen für juristische Personen.",
+      "p2": "Bitte laden Sie die entsprechenden Dokumente für die UBO- und AML-Prüfung hoch.",
+      "files": {
+        "hint1": "Klicken zum Hochladen oder ziehe Dateien hierher",
+        "hint2": "PDF, max 20MB, max 1 Datei",
+        "commercialRegister": "Handelsregisterauszug",
+        "shareholdersAgreement": "Gesellschaftervertrag",
+        "shareholdersList": "Liste aller Gesellschafter",
+        "transparencyRegister": "Transparenzregisterauszug",
+        "powerOfAttorney": "Handlungsvollmacht"
+      },
+      "acceptAndContinue": "Übernehmen und weiter"
+    },
+    "wphg": {
+      "title": "Erfahrung & Kenntnisstand",
+      "subtitle": "Erzählen Sie uns von Ihrem Erlebnis",
+      "p1": "Wir sind gesetzlich verpflichtet zu bewerten, ob eine Investition in ein hier angebotenes Finanzinstrument für unsere Anleger geeignet ist (Angemessenheitsprüfung). Zu diesem Zweck bitten wir Sie, die folgenden Fragen genau und vollständig zu beantworten. Wenn Sie keine Informationen mit uns teilen möchten, ist eine Investition möglich, aber wir können nicht beurteilen, ob diese für Sie geeignet ist.\nBitte beachten Sie: Diese Angemessenheitsprüfung stellt keine individuelle Empfehlung dar, ob das ausgewählte Finanzinstrument tatsächlich für Sie geeignet ist (im Gegensatz zur Anlageberatung). Es ist lediglich eine Einschätzung, ob Sie die mit dem Produkt verbundenen Risiken nach unserer Meinung aufgrund Ihrer Kenntnisse oder Erfahrungen beurteilen können. Vielen Dank für Ihre Antworten und Ihr Vertrauen.",
+      "p2": "Professionelle Kunden nach dem Wertpapierhandelsgesetz gelten als ausreichend erfahren oder sachkundig, um die mit der Investition verbundenen Risiken angemessen einschätzen zu können.",
+      "form": {
+        "legend": "Möchten Sie Details zu Ihrer Anlageerfahrung angeben?",
+        "yes": "Ja",
+        "no": "Nein",
+        "professional": "Ich möchte als professioneller Kunde im Sinne der Wertpapierhandelsgesetze eingestuft werden",
+        "submit": "Fortfahren",
+        "errors": { "answer-min": "Bitte wählen Sie eine Option" }
+      },
+      "knowledge": {
+        "title": "Erfahrung & Kenntnisstand",
+        "form": {
+          "description": "Frage {id} von {length}",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Haben Sie bereits Erfahrung mit Kapitalanlagen?",
+              "answers": [
+                { "id": 1, "text": "Ich möchte keine Angaben machen" },
+                { "id": 2, "text": "Nein" },
+                { "id": 3, "text": "Ja" }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "Wie lange haben Sie Kenntnisse und Erfahrung mit Investitionen?",
+              "answers": [
+                { "id": 1, "text": "Weniger als 1 Jahr" },
+                { "id": 2, "text": "1-3 Jahre" },
+                { "id": 3, "text": "Mehr als 3 Jahre" }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "Wie hoch war Ihr durchschnittlicher Investitionsbetrag?",
+              "answers": [
+                { "id": 1, "text": "Ich habe noch nicht investiert" },
+                { "id": 2, "text": "Bis zu 5.000€" },
+                { "id": 3, "text": "Bis zu 25.000€" },
+                { "id": 4, "text": "Mehr als 25.000€" }
+              ]
+            },
+            {
+              "id": 4,
+              "text": "Wie häufig investieren Sie pro Jahr in diese Anlageklassen?",
+              "answers": [
+                { "id": 1, "text": "Weniger als 5 Transaktionen" },
+                { "id": 2, "text": "Mehr als 5 Transaktionen" }
+              ]
+            },
+            {
+              "id": 5,
+              "text": "Tätigen Sie Geschäfte mit oder in virtuellen Währungen?",
+              "answers": [
+                { "id": 1, "text": "Ja" },
+                { "id": 2, "text": "Nein" }
+              ]
+            },
+            {
+              "id": 6,
+              "text": "Welchen Prozentsatz Ihrer Transaktionen wickeln Sie mit virtuellen Währungen ab?",
+              "answers": [
+                { "id": 1, "text": "Weniger als 50%" },
+                { "id": 2, "text": "Mehr als 50%" }
+              ]
+            },
+            {
+              "id": 7,
+              "text": "Haben Sie durch Ihren Beruf oder eine Ausbildung relevante Kapitalmarkterfahrung gesammelt?",
+              "answers": [
+                { "id": 1, "text": "Ja, mindestens ein Jahr" },
+                { "id": 2, "text": "Nein" }
+              ]
+            },
+            {
+              "id": 8,
+              "text": "Wie haben Sie diese Erfahrung erworben?",
+              "answers": [
+                {
+                  "id": 1,
+                  "text": "Relevanter Beruf: Banken und/oder Versicherungen"
+                },
+                {
+                  "id": 2,
+                  "text": "Relevantes Studium/Ausbildung, z.B. Betriebswirtschaft/Bankkaufmann"
+                },
+                { "id": 3, "text": "Beides" }
+              ]
+            }
+          ],
+          "experience": {
+            "text": "Mit welchen Anlageformen haben Sie Erfahrung",
+            "answers": [
+              { "id": 1, "text": "Geschlossene Investmentfonds" },
+              { "id": 2, "text": "Anleihen" },
+              { "id": 3, "text": "Zertifikate" },
+              { "id": 4, "text": "Tokenisierte Wertpapiere" }
+            ]
+          },
+          "back": "Zurück",
+          "submit": "Akzeptieren und Fortfahren"
+        },
+        "errors": { "answer-all": "Bitte beantworten Sie alle Fragen" }
+      },
+      "risk-warning": {
+        "form": {
+          "description": "Ich bin mir bewusst, dass mein Wissen und meine Erfahrung nicht ausreichen, um die Risiken dieser Investition vollumfänglich beurteilen zu können. Ich möchte dennoch in dieses Finanzinstrument investieren.",
+          "back": "Zurück",
+          "submit": "Akzeptieren und Fortfahren"
+        },
+        "errors": {
+          "read": "Bitte lesen und akzeptieren Sie"
+        }
+      },
+      "professional": {
+        "title": "Einstufung als professioneller Kunde",
+        "p1": {
+          "0": "Anlagebeträge über 25.000 € können derzeit nur von Professionellen Kunden investiert werden. Einem Professionellen Kunden werden ausreichende Kenntnisse und/oder Erfahrung unterstellt. Wenn Sie als Anleger mindestens zwei der drei folgenden Kriterien erfüllen, können Sie beantragen, als Professioneller Kunde nach dem Wertpapierhandelsgesetz (WpHG) eingestuft zu werden. Bitte beantworten Sie die folgenden Fragen wahrheitsgemäß.",
+          "1": "Anlagebeträge über 25.000 € können derzeit nur von professionellen Kunden investiert werden. Ein professioneller Kunde gilt als ausreichend sachkundig und/oder erfahren. Wenn das Unternehmen mindestens zwei der folgenden drei Kriterien erfüllt, wird es gemäß dem Wertpapierhandelsgesetz (WpHG) als professioneller Kunde eingestuft. Bitte beantworten Sie die folgenden Fragen wahrheitsgemäß."
+        },
+        "p2": "Eine Umstufung kann nur berücksichtigt werden, wenn der Privatkunde mindestens zwei der folgenden drei Kriterien erfüllt:",
+        "form": {
+          "requirements": [
+            {
+              "id": 1,
+              "personType": 0,
+              "title": "transactions",
+              "text": "Der Kunde hat im letzten Jahr durchschnittlich zehn Transaktionen von erheblicher Größe pro Quartal auf dem Markt durchgeführt, auf dem die Finanzinstrumente gehandelt werden, für die er als professioneller Kunde eingestuft werden soll"
+            },
+            {
+              "id": 2,
+              "personType": 0,
+              "title": "assets",
+              "text": "Der Kunde verfügt über Bankeinlagen und Finanzinstrumente mit einem Wert von mehr als 500.000 Euro"
+            },
+            {
+              "id": 3,
+              "personType": 0,
+              "title": "experience",
+              "text": "Der Kunde hat einen Beruf im Kapitalmarkt mindestens ein Jahr lang ausgeübt, der Kenntnisse der betreffenden Transaktionen, Anlagedienstleistungen und Nebendienstleistungen erfordert"
+            },
+            {
+              "id": 4,
+              "personType": 1,
+              "title": "balance",
+              "text": "Das Unternehmen hat eine Bilanzsumme von mehr als 20.000.000 € im letzten Jahr erreicht"
+            },
+            {
+              "id": 5,
+              "personType": 1,
+              "title": "revenue",
+              "text": "Das Unternehmen hat einen Umsatzerlös von mehr als 40.000.000 € im letzten Jahr erzielt"
+            },
+            {
+              "id": 6,
+              "personType": 1,
+              "title": "equity",
+              "text": "Das Unternehmen hat mehr als 2.000.000 € Eigenmittel"
+            }
+          ],
+          "description": {
+            "0": "JA, ich, {name}, soll als professioneller Kunde eingestuft werden. Sollten sich die oben bestätigten Kriterien ändern, verpflichte ich mich, diese im Bereich \"Mein Konto\" zu aktualisieren. Auf Anfrage des Unternehmens ist es möglich, eine Vereinbarung über die Einstufung als Privatkunde im Sinne des Wertpapierhandelsgesetzes zu treffen. Diese Vereinbarung muss schriftlich erfolgen.",
+            "1": "Ja, das Unternehmen {name}, soll als Professioneller Kunde eingestuft werden. Sollten sich die zuvor bestätigten Kriterien ändern, verpflichtet sich das Unternehmen/ diese zu aktualisieren. Es besteht auf Antrag des Unternehmens die Möglichkeit, eine Vereinbarung über die Einstufung als Privatkunde im Sinne des Wertpapierhandelsgesetzes zu treffen. Diese Vereinbarung bedarf der Schriftform."
+          },
+          "back": "Zurück",
+          "submit": "Akzeptieren und Fortfahren"
+        },
+        "errors": {
+          "answer-min": "Bitte akzeptieren Sie mindestens zwei der Anforderungen",
+          "read": "Bitte lesen und akzeptieren Sie, als professioneller Kunde eingestuft zu werden"
+        }
+      }
+    },
+    "custody": {
+      "title": "Deine Krypto Wallet wurde erstellt",
+      "subtitle": "Privat, sicher und sofort einsatzbereit.",
+      "intro": "Eine Wallet ist notwendig, um Ihre digitalen Vermögenswerte sicher zu speichern und zu verwalten. Sie dient als Ihre eindeutige Kennung auf der Blockchain und ermöglicht Ihnen die Interaktion mit dezentralen Anwendungen.",
+      "missingWallet": {
+        "step0": { "continue": "Fortfahren" },
+        "step1": {
+          "title": "Wählen Sie Ihre Option",
+          "subtitle": "Sie können eine bestehende Wallet verwenden oder einfach eine neue erstellen.",
+          "connect": {
+            "title": "Ich habe eine Wallet",
+            "subtitle": "Wählen Sie diese Option, wenn Sie bereits eine Wallet haben und den privaten Schlüssel kennen."
+          },
+          "generate": {
+            "title": "Neue Wallet generieren",
+            "subtitle": "Dies ist perfekt, wenn Sie neu bei Kryptowallet sind."
+          }
+        }
+      },
+      "external": {
+        "title": "Wallet verbinden",
+        "subtitle": "Wallet sicher verbinden.",
+        "alert": {
+          "title": "Verifizierung erforderlich",
+          "description": "Sie müssen eine Nachricht signieren, um zu beweisen, dass Sie diese Wallet besitzen."
+        },
+        "continue": "Wallet verbinden",
+        "walletConnect": {
+          "button": "Sign wallet request",
+          "prompt": "Bitte signieren Sie mit Ihrem Konto",
+          "nonceError": "Nonce konnte nicht abgerufen werden!"
+        }
+      },
+      "web3auth": {
+        "title": "Neue Wallet generieren",
+        "subtitle": "Generieren Sie sicher eine neue Wallet.",
+        "alert": {
+          "title": "TokenKey Wallet",
+          "description": "Die TokenKey-Wallet ist durch Ihr Social-Media-Konto oder Ihre E-Mail geschützt. Sie ist sicher und einfach. Sie haben die volle Kontrolle über Ihre Token."
+        },
+        "continue": "Wallet generieren",
+        "error": "Ein Fehler ist aufgetreten",
+        "errorUser": "Benutzerinformationen konnten nicht abgerufen werden.",
+        "validating": "Wir überprüfen Ihre Daten.",
+        "connect": "Melden Sie sich mit Ihrer E-Mail-Adresse {email} an, um Ihren privaten Schlüssel wiederherzustellen",
+        "connectButton": "Verbindung",
+        "alertPrivateKey": {
+          "title": "Wichtig",
+          "description": "Geben Sie Ihren privaten Schlüssel niemals weiter. Bewahren Sie ihn an einem sicheren Ort auf."
+        },
+        "retrieveButton": "Privaten Schlüssel wiederherstellen"
+      },
+      "walletLinked": {
+        "toast": { "success": "Wallet erfolgreich abgetrennt 🎊" },
+        "title": "Wallet verbunden",
+        "subtitle": "Ihre Wallet ist auf der Plattform einsatzbereit.",
+        "intro": "Für die sichere Verwahrung Ihrer Token benötigen Sie ein sogenanntes Wallet. Ein Wallet ist ein digitales Schließfach, ähnlich einem Depotkonto, auf das Sie jederzeit über unser Dashboard zugreifen können. Das Wallet stellen wir Ihnen kostenlos über unseren Partner Web3Auth zur Verfügung.",
+        "tooltip": {
+          "trigger": "Weitere Informationen",
+          "content": "Ihre Wallet wird durch ein sicheres System namens multi-party computation (MPC) geschützt. Anstatt einen privaten Schlüssel an einem Ort zu speichern, wird er in mehrere Teile aufgeteilt und nur bei der Anmeldung zusammengefügt – das bedeutet, dass niemand anderes (auch wir nicht) darauf zugreifen kann. Sie müssen keine Apps installieren und keine Krypto-Kenntnisse haben – es funktioniert einfach.\n\nDies wird durch eine Technologie namens Web3Auth ermöglicht, die Apps wie unserer dabei hilft, Wallets zu erstellen, ohne dass Sie sich mit privaten Schlüsseln oder Krypto-Fachjargon auseinandersetzen müssen."
+        },
+        "outro": "Kannst du nach Abschluss des Onboardings und vor deiner ersten Investition diese Wallet durch eine ersetzen, die du selbst erstellt und extern verwaltest. Die Wallet, die wir erstellt haben, gehört nur dir – nur du kannst auf den privaten Schlüssel zugreifen – aber du hast die Freiheit, jede Wallet zu verwenden, die du bereits kontrollierst.",
+        "addressLabel": "Wallet-Adresse",
+        "copy": {
+          "button": "Kopieren",
+          "toast": {
+            "title": "Kopiert",
+            "description": "Die Informationen wurden in die Zwischenablage kopiert."
+          }
+        },
+        "connectionDateLabel": "Verbindungsdatum",
+        "walletTypeLabel": "Wallet-Typ",
+        "web3auth": "Wir haben diese Wallet für Sie erstellt",
+        "external": "Selbstverwahrte Wallet",
+        "retrievePrivateKey": "Privaten Schlüssel abrufen",
+        "emailLabel": "Verknüpfte E-Mail",
+        "loginMethodLabel": "Anmeldemethode",
+        "privateKey": "Privater Schlüssel",
+        "change": "Wallet wechseln",
+        "accept": "Fortfahren"
+      },
+      "back": "Zurück",
+      "stepper": {
+        "intro": "Einführung",
+        "options": "Optionen",
+        "connection": "Verbindung"
+      },
+      "errors": {
+        "unknown-error": "Ein unbekannter Fehler ist aufgetreten, bitte versuchen Sie es erneut",
+        "signature": "Signatur ist nicht gültig",
+        "already-used": "Diese Wallet wird bereits von einem anderen Benutzer verwendet",
+        "id-token": "ID-Token konnte nicht abgerufen werden",
+        "crypto-wallet": "Wallet-Adresse konnte nicht verifiziert werden",
+        "same-email": "Verbinden Sie sich mit derselben E-Mail {email}, um Ihren privaten Schlüssel wiederherzustellen"
+      }
+    },
+    "kyc": {
+      "title": "Persönliche Verifizierung",
+      "subtitle": "Identitätsüberprüfung abschließen",
+      "intro": "Wir sind gesetzlich verpflichtet, unsere Investoren zu unserer und Ihrer Sicherheit zu identifizieren. Zu diesem Zweck führen wir eine Identitätsprüfung mit unserem Partner WebID durch, die Sie mit Ihrem Smartphone in nur wenigen Momenten abschließen können. Der Videoidentifikationsprozess beginnt mit einem Klick unten. Folgen Sie einfach den Anweisungen.",
+      "initial": {
+        "cta": "Verifizierung starten",
+        "items": {
+          "file": {
+            "description": "Halten Sie Ihren gültigen Personalausweis oder Reisepass bereit",
+            "title": "Bereiten Sie Ihre Dokumente vor"
+          },
+          "lock": {
+            "description": "Ihre Daten sind durch eine Verschlüsselung auf Bankenniveau geschützt",
+            "title": "Sicherer Vorgang"
+          },
+          "check": {
+            "description": "Der gesamte Vorgang dauert weniger als 5 Minuten",
+            "title": "Schnell und einfach"
+          }
+        }
+      },
+      "pending": {
+        "title": "Wir verarbeiten Ihre Verifizierung",
+        "subtitle": "Bitte schließen Sie Ihre Identitätsverifizierung bei unserem Anbieter ab",
+        "cta": "Fortfahren",
+        "alert": "Wenn Sie das Bestätigungsfenster geschlossen haben oder den Vorgang neu starten müssen, können Sie fortfahren, indem Sie auf die Schaltfläche unten klicken."
+      },
+      "aborted": {
+        "title": "Verifizierung abgebrochen",
+        "subtitle": "Es scheint, dass der Prozess unterbrochen wurde. Möchten Sie es erneut versuchen?",
+        "cta": "Erneut versuchen"
+      },
+      "failure": {
+        "title": "Verifizierung fehlgeschlagen",
+        "subtitle": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut",
+        "cta": "Erneut versuchen"
+      },
+      "verified": {
+        "title": "Verifizierung erfolgreich",
+        "subtitle": "Alles bereit!",
+        "idVerified": "Überprüfte Identität",
+        "idConfirmed": "Ihre Identität wurde bestätigt",
+        "secureAccount": "Sicheres Konto",
+        "completeAccess": "Vollständiger Zugriff auf die Plattform",
+        "readyToInvest": "Bereit zum Investieren",
+        "explore": "Investitionsmöglichkeiten erkunden",
+        "cta": "Projekte ansehen"
+      }
+    },
+    "help": {
+      "title": "Brauchen Sie Hilfe?",
+      "whatsapp": "Hallo! Ich brauche Hilfe, kannst du mir helfen?",
+      "intercom": "Live-Chat",
+      "help": "Hilfe",
+      "close": "Schließen"
+    }
+  }
+}

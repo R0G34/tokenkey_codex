@@ -1,0 +1,71 @@
+{
+  "project": {
+    "page": {
+      "title": "Real Estate Market",
+      "description": "...",
+      "cta": "Learn More",
+      "requires_kyc": "Requires KYC"
+    },
+    "tabs": {
+      "description": {
+        "title": "Description",
+        "location": "Location",
+        "highlights": {
+          "title": "Highlights",
+          "profitability": "Expected annual return",
+          "term": "Investment period"
+        }
+      },
+      "documents": {
+        "title": "Documents",
+        "inner_title": "Legal Documentation",
+        "description": "All legal documents related to this project are available for review. We recommend that investors carefully review these documents before making investment decisions."
+      },
+      "legals": {
+        "title": "Legals"
+      },
+      "recent_activity": {
+        "title": "Recent Activity",
+        "inner_title": "Recent sales"
+      },
+      "schedule": { "title": "Schedule" }
+    },
+    "Project": {
+      "coming-soon": "Coming Soon!",
+      "title": "Project",
+      "TokenPrice": "Token Price",
+      "ExpectedReturn": "Expected Return",
+      "NumberOftokens": "Number of tokens",
+      "EstimatedTerm": "Estimated Term",
+      "termValue": "{term, plural, one {# month} other {# months}}",
+      "investors": "{investors, plural, one {<span>#</span> investor} other {<span>#</span> investors}}",
+      "remainingTokens": "{tokens, plural, one {<span>#</span> token remaining} other {<span>#</span> tokens remaining}}",
+      "modality": { "Flipping": "Flipping" },
+      "status": {
+        "Cancelled": "Cancelled",
+        "Reserved": "Reserved",
+        "Under study": "Under study"
+      },
+      "type": {
+        "Residential building": "Residential building",
+        "Single Family Homes": "Single Family Homes"
+      }
+    },
+    "document": {
+      "cadastral_reference": "Cadastral reference",
+      "purchase_agreement": "Purchase Agreement",
+      "property_deed": "Property Deed",
+      "of": "of",
+      "legals": {
+        "securities-information-sheet": "Securities information sheet",
+        "risk-information": "Risk information",
+        "cost-information": "Cost information",
+        "revocation-instruction": "Revocation instruction",
+        "egbgb-consumer-information": "EGBGB consumer information",
+        "terms-of-use": "Terms of use",
+        "customer-information": "Customer information",
+        "data-protection-agreement": "Data protection agreement"
+      }
+    }
+  }
+}

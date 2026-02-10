@@ -1,0 +1,156 @@
+{
+  "account": {
+    "title": "Account Settings",
+    "description": "Manage your account information and preferences",
+    "editButton": "Edit",
+    "editPage": {
+      "title": "Edit Account",
+      "description": "Update your personal information",
+      "cancelButton": "Cancel",
+      "saveButton": "Save Changes"
+    },
+    "editExperience": {
+      "title": "Edit Experience",
+      "description": "Update your investment experience and knowledge assessment",
+      "cardTitle": "Investment Experience Assessment",
+      "cardDescription": "To update your investment experience, you'll need to complete the experience questionnaire again. This will replace your current assessment.",
+      "startButton": "Start Assessment"
+    },
+    "accountOverview": {
+      "title": "Account Overview",
+      "email": "Email",
+      "memberSince": "Member Since",
+      "accountCreated": "Account Created",
+      "userType": "Account Type",
+      "userTypeCustomer": "Customer",
+      "userTypeCompany": "Company"
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "name": "Company Name",
+      "legalForm": "Legal Form",
+      "foundingDate": "Founding Date",
+      "registryNo": "Registry Number",
+      "registryNumber": "Commercial Register Number",
+      "registryCourt": "Registry Court",
+      "taxId": "Tax ID",
+      "address": "Company Address",
+      "naturalPerson": "Natural Person",
+      "legalPerson": "Legal Entity",
+      "isPep": "Politically Exposed Person (PEP)",
+      "isFictitiousUbo": "Fictitious UBO"
+    },
+    "companyRoles": {
+      "title": "Company Roles & Ownership",
+      "rolesTitle": "Your Role Within the Company",
+      "representative": "Representative / Legal Representative",
+      "fictitiousBeneficialOwner": "Fictitious Beneficial Owner",
+      "authorizedBeneficialOwner": "Authorized Beneficial Owner",
+      "capitalShares": "Capital Shares",
+      "votingRights": "Voting Rights",
+      "powerOfAttorney": "Power of Attorney"
+    },
+    "representatives": {
+      "title": "Representatives"
+    },
+    "beneficialOwners": {
+      "title": "Beneficial Owners"
+    },
+    "uboAml": {
+      "title": "UBO & AML",
+      "description": "Ultimate Beneficial Owner and Anti-Money Laundering compliance documentation."
+    },
+    "bankInfo": {
+      "title": "Bank Account",
+      "holder": "Account Holder",
+      "bank": "Bank Name",
+      "iban": "IBAN",
+      "swift": "SWIFT/BIC",
+      "location": "Bank Location",
+      "currency": "Currency",
+      "noAccount": "No bank account added yet. Click Edit to add one.",
+      "otherAccounts": "{count, plural, one {+# other account} other {+# other accounts}}"
+    },
+    "bankAccounts": {
+      "title": "Bank Accounts",
+      "description": "Manage your bank accounts for payments",
+      "listTitle": "Your Bank Accounts",
+      "addAccount": "Add Account",
+      "noAccounts": "No bank accounts added yet. Add one to get started.",
+      "default": "Default",
+      "setDefault": "Set as Default",
+      "defaultSuccess": "Bank account set as default",
+      "deleteSuccess": "Bank account deleted",
+      "addSuccess": "Bank account added",
+      "form": {
+        "title": "Add Bank Account",
+        "description": "Enter your bank account details below",
+        "iban": "IBAN",
+        "holder": "Account Holder Name",
+        "bank": "Bank Name",
+        "swift": "SWIFT/BIC",
+        "setAsDefault": "Set as default",
+        "setAsDefaultDescription": "Use this account for future payments",
+        "cancel": "Cancel",
+        "add": "Add Account",
+        "adding": "Adding...",
+        "errors": {
+          "required": "IBAN and Account Holder are required"
+        }
+      }
+    },
+    "experience": {
+      "title": "Investment Experience",
+      "consent": "Consent",
+      "score": "Experience Score",
+      "riskConsent": "Risk Acknowledgment",
+      "professional": "Professional Investor",
+      "knowledge": "Knowledge Assessment",
+      "yes": "Yes",
+      "no": "No",
+      "completed": "Completed",
+      "notCompleted": "Not Completed",
+      "answers": "Answers",
+      "investmentExperience": "Investment Experience",
+      "requirementsMet": "Requirements met"
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "description": "Update your personal details",
+      "legend": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "birthDate": "Date of Birth",
+      "birthplace": "Place of Birth",
+      "pickADate": "Pick a date",
+      "placeOfBirth": "Place of Birth",
+      "nationality": "Nationality",
+      "phoneNumber": "Phone Number",
+      "kycStatus": "KYC Verification",
+      "kycVerified": "Verified",
+      "kycPending": "Pending",
+      "pepStatus": "PEP Status",
+      "isPep": "Yes",
+      "notPep": "No",
+      "gender": "Gender",
+      "genderMale": "Male",
+      "genderFemale": "Female",
+      "genderOther": "Other",
+      "salutation": "Salutation",
+      "saveButton": "Save Changes"
+    },
+    "address": {
+      "title": "Address",
+      "legend": "Address",
+      "street": "Street",
+      "streetNumber": "Street Number",
+      "postcode": "Postcode",
+      "city": "City",
+      "country": "Country"
+    },
+    "messages": {
+      "saveSuccess": "Account information updated successfully",
+      "saveError": "Failed to update account information"
+    }
+  }
+}

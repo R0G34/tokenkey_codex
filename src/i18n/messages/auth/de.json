@@ -1,0 +1,81 @@
+{
+  "auth": {
+    "layout": {
+      "text": "Ihre beste Immobilieninvestition dank Tokenisierung",
+      "text2": "Ab 100 € einfach und sicher in das Immobiliengeschäft investieren"
+    },
+    "UserAuthForm": {
+      "schema": {
+        "required_error": "Bitte gib deine E-Mail-Adresse ein.",
+        "email": "Die E-Mail-Adresse ist ungültig."
+      },
+      "alert": "Um dich bei TokenKey anzumelden, akzeptiere zuerst unsere Allgemeinen Geschäftsbedingungen und bestätige, dass du unsere Datenschutzrichtlinie gelesen hast, indem du das Kästchen markierst.",
+      "emailPlaceholder": "Email",
+      "alertEmailNotFound": "Die E-Mail-Adresse ist bei TokenKey nicht registriert.",
+      "or": "Oder",
+      "alertEmailAlreadyUsed": "Die E-Mail-Adresse ist bereits bei TokenKey registriert."
+    },
+    "signInForm": {
+      "emailButton": "Mit E-Mail anmelden",
+      "googleButton": "Mit Google anmelden"
+    },
+    "signUpForm": {
+      "emailButton": "Mit E-Mail registrieren",
+      "googleButton": "Mit Google registrieren"
+    },
+    "verifyRequestPage": {
+      "title": "Überprüfe deine E-Mail-Adresse",
+      "text": "Ein Anmeldelink wurde an deine E-Mail-Adresse gesendet. Überprüfe deinen Posteingang, um fortzufahren.",
+      "meta-title": "Anfrage überprüfen"
+    },
+    "verifyOtpPage": {
+      "text": "Wir haben Ihnen einen Code an {email} gesendet. Bitte geben Sie ihn unten ein:",
+      "form": {
+        "errors": { "code": "Ihr Code muss 8 Zeichen lang sein." }
+      },
+      "toast": {
+        "success": "Daten erfolgreich gespeichert",
+        "error": {
+          "title": "Ups! Etwas ist schiefgelaufen.",
+          "description": "Dieser Code wurde bereits verwendet oder ist abgelaufen. Bitte fordern Sie einen neuen Code an."
+        }
+      },
+      "resend": {
+        "title": "Code nicht erhalten?",
+        "submit": "Code erneut senden",
+        "toast": {
+          "success": "Wir haben einen neuen Code an Ihre E-Mail-Adresse gesendet",
+          "error": "Wir konnten keinen neuen Code an Ihre E-Mail-Adresse senden"
+        }
+      },
+      "submit": "Code bestätigen",
+      "title": "Anfrage überprüfen"
+    },
+    "//consent": "<p1>I confirm that I have read the <privacy>privacy policies</privacy> of Tokenkey S.L and TokenKey GmbH, as well as the terms and conditions of the partners Concedus GmbH, and Smart Registry GmbH and consent to the processing of my personal data for exclusive use within the platform in accordance with the conditions described therein.</p1><p2>I confirm that I have read, understood and accepted TokenKey's <terms>General Terms and Conditions</terms> and understand that this service operates exclusively with the General Terms and Conditions of the partners TokenKey GmbH, Condedus and Smart Registry GmbH.</p2><p3>I agree that TokenKey may use my personal data for the purpose of information about products, services and events exclusively related to the platform.</p3><p4>I know that I can unsubscribe at any time using the contact information provided in the privacy policy.</p4>",
+    "consent-privacy": "<p>Ich bestätige, dass ich die <privacy>Datenschutzrichtlinien</privacy> von Tokenkey S.L. und TokenKey GmbH sowie die Allgemeinen Geschäftsbedingungen der Partner <concedus>Concedus GmbH</concedus> und <nyala>Smart Registry GmbH</nyala> gelesen habe und der Verarbeitung meiner persönlichen Daten für die ausschließliche Nutzung innerhalb der Plattform gemäß den darin beschriebenen Bedingungen zustimme.</p>",
+    "consent": "<p>Ich bestätige, dass ich die <terms>Allgemeinen Geschäftsbedingungen</terms> von TokenKey gelesen, verstanden und akzeptiert habe und verstehe, dass dieser Dienst ausschließlich mit den Allgemeinen Geschäftsbedingungen der Partner TokenKey GmbH, <concedus>Concedus</concedus> und <nyala>Smart Registry GmbH</nyala> betrieben wird.</p><p>Ich stimme zu, dass TokenKey meine persönlichen Daten zum Zweck der Information über Produkte, Dienstleistungen und Veranstaltungen, die ausschließlich mit der Plattform zusammenhängen, verwenden darf.</p><p>Ich bin mir bewusst, dass ich mich jederzeit unter Verwendung der in der Datenschutzrichtlinie angegebenen Kontaktinformationen abmelden kann.</p>",
+    "signOut": {
+      "toast": {
+        "success": "Daten erfolgreich gespeichert",
+        "error": "Ups! Etwas ist schiefgelaufen."
+      }
+    },
+    "toast": {
+      "success": "Daten erfolgreich gespeichert",
+      "error": "Ups! Etwas ist schiefgelaufen."
+    },
+    "errorPage": {
+      "cta": "Zur Anmeldung gehen"
+    },
+    "signInPage": {
+      "text": "Neu bei TokenKey?",
+      "cta": "Konto erstellen",
+      "title": "Anmelden"
+    },
+    "signUpPage": {
+      "text": "Hast du bereits ein Konto?",
+      "cta": "Anmelden",
+      "title": "Registrieren"
+    }
+  }
+}

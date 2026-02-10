@@ -1,0 +1,33 @@
+{
+  "inbox": {
+    "back": "Back",
+    "empty": {
+      "title": "No messages yet",
+      "description": "Your inbox is empty. You'll receive important notifications and documents here."
+    },
+    "detail": {
+      "noSelection": {
+        "title": "No message selected",
+        "description": "Choose a message from the list to view its details and attachments."
+      },
+      "attachments": "Attachments",
+      "noAttachments": "No attachments.",
+      "unread": "Unread"
+    },
+    "legals": {
+      "title": "Legal documents for your investment",
+      "preview": "Review the legal documents attached below before confirming your investment.",
+      "content": "Please review the following legal documents carefully before confirming your investment. These documents contain important information about the risks, costs and conditions of your investment."
+    },
+    "documents": {
+      "securities-information-sheet": "Securities Information Sheet",
+      "risk-information": "Risk Information",
+      "cost-information": "Cost Information",
+      "revocation-instruction": "Revocation Instructions",
+      "egbgb-consumer-information": "EGBGB Consumer Information",
+      "terms-of-use": "Terms of Use",
+      "customer-information": "Customer Information",
+      "data-protection-agreement": "Data Protection Agreement"
+    }
+  }
+}

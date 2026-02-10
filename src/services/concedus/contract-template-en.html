@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Investment Agreement – Contract {{contract_number}}</title>
+
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.55;
+      }
+      .page {
+        padding: 40px 55px 70px;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #299d90;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+      }
+      .header img {
+        height: 42px;
+      }
+      .header-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #299d90;
+        letter-spacing: 0.5px;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        color: #777;
+        border-top: 1px solid #ddd;
+        padding-top: 8px;
+      }
+
+      h1 {
+        color: #299d90;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 14px;
+        letter-spacing: 0.3px;
+      }
+      h2 {
+        color: #299d90;
+        font-size: 15px;
+        margin-top: 22px;
+        margin-bottom: 6px;
+      }
+
+      .contract-number {
+        text-align: right;
+        font-size: 12px;
+        font-weight: 600;
+        color: #299d90;
+        margin-bottom: 25px;
+      }
+
+      table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      table td {
+        padding: 4px 0;
+        vertical-align: top;
+      }
+      table td:first-child {
+        font-weight: 600;
+        width: 45%;
+      }
+
+      .signature-block {
+        margin-top: 35px;
+      }
+      .signature-line {
+        margin-top: 28px;
+        width: 280px;
+        border-top: 1px solid #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="header">
+        <img src="public/img/logo-tokenkey.png" alt="TokenKey Logo" />
+        <div class="header-title">Investment Agreement</div>
+      </div>
+
+      <div class="contract-number">Contract No. {{contract_number}}</div>
+
+      <h1>Investment Agreement</h1>
+
+      <p>
+        This Investment Agreement (“Agreement”) is entered into on
+        <strong>{{investment_date}}</strong> between:
+      </p>
+
+      <p>
+        <strong>{{customer_first_name}} {{customer_last_name}}</strong><br />
+        (the “Investor”)
+      </p>
+
+      <p>and</p>
+
+      <p>
+        <strong>TokenKey</strong>, a platform enabling access to tokenized
+        real-estate investment opportunities (the “Company”).
+      </p>
+
+      <h2>1. Project Details</h2>
+      <p>
+        The Investor hereby participates in the real-estate tokenization
+        project:
+        <strong>{{project_name}}</strong>.
+      </p>
+
+      <h2>2. Investment Summary</h2>
+      <table>
+        <tr>
+          <td>Investment Amount</td>
+          <td>{{investment_amount}}</td>
+        </tr>
+        <tr>
+          <td>Token Price</td>
+          <td>{{token_price}}</td>
+        </tr>
+        <tr>
+          <td>Tokens Allocated</td>
+          <td>{{token_quantity}}</td>
+        </tr>
+      </table>
+
+      <p>
+        The purchased tokens represent fractional participation in the
+        underlying real-estate asset, subject to the rights and obligations
+        defined within this Agreement.
+      </p>
+
+      <h2>3. Terms & Conditions</h2>
+      <p>
+        The Investor acknowledges having reviewed all relevant documentation,
+        risk disclosures, project materials, and agrees to the terms associated
+        with the acquisition and holding of digital tokens representing
+        real-estate value.
+      </p>
+
+      <h2>4. Acknowledgment</h2>
+      <p>
+        By signing below, the Investor confirms full understanding of the
+        investment’s nature, associated risks, and expected benefits, and
+        voluntarily enters into this Agreement.
+      </p>
+
+      <h2>5. Signatures</h2>
+      <div class="signature-block">
+        <p>Investor:</p>
+        <div class="signature-line"></div>
+        <p><strong>{{signature_name}}</strong></p>
+        <p>Date: {{signature_date}}</p>
+      </div>
+
+      <div class="footer">
+        TokenKey • Secure Real-Estate Tokenization • www.tokenkey.io
+      </div>
+    </div>
+  </body>
+</html>

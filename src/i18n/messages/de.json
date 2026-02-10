@@ -1,0 +1,35 @@
+{
+  "modeToggle": {
+    "title": "Thema wechseln",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "LocaleSwitcher": {
+    "title": "Sprache",
+    "label": "Sprache ändern",
+    "locale": "{locale, select, es {Español} en {English} de {Deutsch} other {Unbekannt}}",
+    "more": "Mehr"
+  },
+  "footer": {
+    "legalNotice": "Impressum",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "cookie": "Cookies",
+    "cookiePreferences": "Cookie Einstellungen",
+    "text": "<strong>Warnhinweis:</strong> Der Erwerb von Finanzinstrumenten ist mit erheblichen Risiken verbunden und kann zum vollständigen Verlust des eingesetzten Vermögens führen. Der in Aussicht gestellte Ertrag ist nicht gewährleistet und kann auch niedriger ausfallen.\n\nDie <strong>TokenKey Solutions Germany GmbH</strong> ist ein vertraglich gebundener Vermittler im Sinne des § 3 Abs. 2 Wertpapierinstitutsgesetz (WpIG) und wird bei der Vermittlung von Finanzinstrumenten ausschließlich auf Rechnung und unter der Haftung des Wertpapierinstituts Concedus GmbH, Nürnberg, tätig.\n\nMehr zu <concedus>CONCEDUS</concedus>.\n\nDie Informationen auf dieser Seite werden allein durch den Emittenten bereitgestellt. CONCEDUS prüft diese Informationen nicht, insbesondere nicht die Bonität des Emittenten. Das BaFin-Register der vertraglich gebundenen Vermittler ist abrufbar unter <link>https://portal.mvp.bafin.de/database/VGVInfo</link>"
+  },
+  "help": {
+    "faq": { "title": "Wir lösen Ihre Zweifel" }
+  },
+  "intercom": {
+    "opener": "So funktioniert es"
+  },
+  "logout": "Abmelden",
+  "navbar": {
+    "howItWorks": "Wie es funktioniert",
+    "marketplace": "Marktplatz",
+    "yourAccount": "Ihr Konto",
+    "startApp": "App starten"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "inbox": {
+    "back": "Volver",
+    "empty": {
+      "title": "Aún no hay mensajes",
+      "description": "Tu bandeja de entrada está vacía. Recibirás aquí notificaciones y documentos importantes."
+    },
+    "detail": {
+      "noSelection": {
+        "title": "No hay mensaje seleccionado",
+        "description": "Elige un mensaje de la lista para ver sus detalles y archivos adjuntos."
+      },
+      "attachments": "Archivos Adjuntos",
+      "noAttachments": "Sin archivos adjuntos.",
+      "unread": "No leído"
+    },
+    "legals": {
+      "title": "Documentos legales para tu inversión",
+      "preview": "Revisa los documentos legales adjuntos antes de confirmar tu inversión.",
+      "content": "Por favor, revisa atentamente los siguientes documentos legales antes de confirmar tu inversión. Estos documentos contienen información importante sobre los riesgos, costes y condiciones de tu inversión."
+    },
+    "documents": {
+      "securities-information-sheet": "Hoja Informativa sobre los Valores",
+      "risk-information": "Información sobre Riesgos",
+      "cost-information": "Información sobre Costes",
+      "revocation-instruction": "Instrucciones de Revocación",
+      "egbgb-consumer-information": "Información para el Consumidor EGBGB",
+      "terms-of-use": "Condiciones de Uso",
+      "customer-information": "Información para el Cliente",
+      "data-protection-agreement": "Acuerdo de Protección de Datos"
+    }
+  }
+}

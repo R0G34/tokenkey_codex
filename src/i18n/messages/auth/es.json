@@ -1,0 +1,80 @@
+{
+  "auth": {
+    "layout": {
+      "text": "Tu mejor inversión inmobiliaria gracias a la tokenización",
+      "text2": "Invierte en el negocio inmobiliario de forma fácil y segura desde 100€"
+    },
+    "UserAuthForm": {
+      "schema": {
+        "required_error": "Por favor ingresa tu correo electrónico.",
+        "email": "El email es inválido."
+      },
+      "alert": "Para iniciar sesión en TokenKey, primero acepta nuestros Términos y condiciones y confirma que has leído nuestra Política de privacidad marcando la casilla.",
+      "emailPlaceholder": "Email",
+      "alertEmailNotFound": "El email no está registrado en TokenKey.",
+      "or": "O",
+      "alertEmailAlreadyUsed": "El email ya está registrado en TokenKey."
+    },
+    "signInForm": {
+      "emailButton": "Entrar con Email",
+      "googleButton": "Entrar con Google"
+    },
+    "signUpForm": {
+      "emailButton": "Registrarse con Email",
+      "googleButton": "Registrarse con Google"
+    },
+    "verifyRequestPage": {
+      "title": "Verifica tu correo electrónico",
+      "text": "Se ha enviado un enlace de inicio de sesión a tu dirección de correo electrónico. Revisa tu inbox para continuar.",
+      "meta-title": "Verificar solicitud"
+    },
+    "verifyOtpPage": {
+      "text": "Te hemos enviado un código a {email} introdúcelo a continuación:",
+      "form": {
+        "errors": { "code": "Su código debe tener 8 caracteres." }
+      },
+      "toast": {
+        "success": "Datos guardados exitosamente",
+        "error": {
+          "title": "¡Vaya! Algo salió mal.",
+          "description": "Este código se ha utilizado o ha expirado. Pide un nuevo código."
+        }
+      },
+      "resend": {
+        "title": "¿No has recibido el código?",
+        "submit": "Reenviar código",
+        "toast": {
+          "success": "Hemos enviado un nuevo código a tu email",
+          "error": "No hemos podido enviar un nuevo código a tu email"
+        }
+      },
+      "submit": "Verificar código",
+      "title": "Verificar solicitud"
+    },
+    "consent-privacy": "<p>Confirmo que he leído las <privacy>políticas de privacidad</privacy> de Tokenkey S.L y TokenKey GmbH, así cómo las condiciones que se tiene con los partners <concedus>Concedus GmbH</concedus>, y <nyala>Smart Registry GmbH</nyala> y doy mi consentimiento para el procesamiento de mis datos personales para uso exclusivo dentro de la plataforma de acuerdo con las condiciones descritas en ellas.</p>",
+    "consent": "<p>Confirmo que he leído, comprendido y aceptado los <terms>Términos y Condiciones Generales</terms> de Tokenkey y entiendo que este servicio funciona exclusivamente con los Términos y Condiciones Generales de los partners TokenKey GmbH, <concedus>Condedus</concedus> y  <nyala>Smart Registry GmbH</nyala>.</p><p>Acepto que TokenKey pueda utilizar mis datos personales con fines de información sobre productos, servicios y eventos que se realicen exclusivamente relacionados con la plataforma.</p><p>Sé que puedo darme de baja en cualquier momento utilizando la información de contacto proporcionada en la política de privacidad.</p>",
+    "signOut": {
+      "toast": {
+        "success": "Datos guardados exitosamente",
+        "error": "¡Vaya! Algo salió mal."
+      }
+    },
+    "toast": {
+      "success": "Datos guardados exitosamente",
+      "error": "¡Vaya! Algo salió mal."
+    },
+    "errorPage": {
+      "cta": "Iniciar sesión"
+    },
+    "signInPage": {
+      "text": "¿Nuevo en TokenKey?",
+      "cta": "Crear cuenta",
+      "title": "Accede a TokenKey"
+    },
+    "signUpPage": {
+      "text": "¿Ya tienes una cuenta?",
+      "cta": "Iniciar sesión",
+      "title": "Crear cuenta"
+    }
+  }
+}

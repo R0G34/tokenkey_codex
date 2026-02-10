@@ -1,0 +1,244 @@
+{
+  "investment": {
+    "minimumInvestment": "Minimum investment",
+    "expectedReturn": "Expected return",
+    "term": "Term",
+    "termValue": "{term, plural, one {# month} other {# months}}",
+    "apr": "APR",
+    "progress": "Investment progress",
+    "progressShort": "Progress",
+    "tokensSold": "{tokens} tokens sold",
+    "remainingTokens": "{tokens} tokens remaining",
+    "investmentCard": {
+      "investNow": "Invest now",
+      "expandInvestment": "Invest more",
+      "investmentSummary": {
+        "title": "Your investment",
+        "amountInvested": "Amount invested",
+        "tokensAcquired": "Tokens acquired"
+      }
+    },
+    "dialog": {
+      "title": "Invest in {name}",
+      "description": "Expected return",
+      "step1": {
+        "form": {
+          "amount": "Amount to invest",
+          "minimum": "Minimum",
+          "maximum": "Maximum",
+          "currentSold": "Your current balance",
+          "currentInvestment": "Current investment",
+          "investmentSummary": "Investment summary",
+          "investment": "Investment",
+          "expectedReturn": "Expected return",
+          "errors": {
+            "min": "The amount must be at least {minInvestment}.",
+            "max": "The amount must be at most {maxInvestment}.",
+            "amount": "The amount must be a multiple of the token price"
+          },
+          "alert": {
+            "title": "Insufficient Funds",
+            "description": "You do not have enough funds to make this investment.",
+            "addFunds": "Add Funds",
+            "continue": "Continue"
+          }
+        }
+      },
+      "step2": {
+        "title": "Confirm your investment",
+        "subtitle": "Confirm your investment",
+        "investmentText": "You are about to invest {amount} {additional, selectordinal, one {additional } other {}}in this project. You will receive {tokenCount, plural, one {# additional token} other {# additional tokens}}.",
+        "investmentTextNoOptin": "You are about to invest {amount} in this project. You will receive {tokenCount, plural, one {# token} other {# tokens}}.",
+        "investmentProtected": "Your investment is protected and regulated by the CNMV. More information about the security of your investment in our <link>legal documentation</link>.",
+        "formCommon": {
+          "intro": "We have just sent you to your inbox the following documents. Please read these carefully. By clicking on \"Continue\", you confirm that your personal data is correct, you have received and read all documents and you agree to the terms of the contract.",
+          "confirmMonthlyIncome": "I confirm that the amount of my investment does not exceed the amount equivalent to twice my average monthly net income.",
+          "buttons": {
+            "back": "Return",
+            "submit": "Continue",
+            "pending": "Processing..."
+          }
+        },
+        "form1000": {
+          "p1": "According to the results of our audit, your knowledge or experience is not sufficient to allow you to assess the risks associated with an investment in this financial instrument. Therefore, it does not seem appropriate to invest in it. After acknowledging and confirming this warning, however, you can continue with the subscription and make an investment in the financial instrument. By clicking \"Continue\", you confirm that you have taken note of this warning.",
+          "p2": "To continue with your investment, you must confirm at least one of the following two statements. Please answer truthfully.",
+          "confirmAsset": "I confirm that I have freely available assets in the form of bank deposits and financial instruments for a minimum amount of {amount}.",
+          "error": "You must select at least one of the options."
+        },
+        "form10000": {
+          "p1": "We do not have all the requested information in order to assess whether you can evaluate the risks associated with an investment in this financial instrument. In this regard, we cannot perform a suitability test, i.e. whether an investment may be unsuitable. After acknowledging and confirming this warning, you can continue with the subscription and make an investment in the financial instrument. By clicking \"Continue\", you confirm that you have taken note of this warning.",
+          "error": "You must select this option"
+        },
+        "form25000": {}
+      },
+      "step3": {
+        "title": "Authorize Payment",
+        "amount": "Amount to Authorize",
+        "selectMethod": "Select Payment Method",
+        "default": "Default",
+        "addNewAccount": "Add new bank account",
+        "iban": "IBAN",
+        "accountOwner": "Account Holder Name",
+        "directDebitInfo": "By clicking \"Authorize & Invest\", you authorize a SEPA direct debit from your bank account. The payment will be captured automatically once your investment passes compliance review.",
+        "authorizeAndInvest": "Authorize & Invest",
+        "authorizing": "Authorizing...",
+        "success": "Investment created successfully! Your payment is authorized and will be captured after compliance approval.",
+        "errors": {
+          "missingBankDetails": "Please provide your bank account details"
+        }
+      }
+    },
+    "errors": {
+      "missing-kyc": "You must complete the identity verification process before you can invest with us.",
+      "already-invested": "Multiple investments for the same project are not permitted.",
+      "already-has-order": "You already have an order for this project. Only one order per project is allowed."
+    },
+    "warning": "<strong>Warning:</strong> The purchase of a security involves significant risks and may result in the loss of the entire investment. The projected return is not guaranteed and may be lower.",
+    "list": {
+      "title": "My Investments",
+      "description": "View and manage all your investments",
+      "empty": {
+        "title": "No investments yet",
+        "description": "You haven't made any investments yet. Browse our projects to get started.",
+        "cta": "Browse Projects"
+      },
+      "table": {
+        "title": "Your Investments",
+        "headers": {
+          "project": "Project",
+          "amount": "Amount",
+          "paymentReference": "Payment Reference",
+          "compliancestatus": "Compliance Status",
+          "paymentstatus": "Payment Status",
+          "date": "Date",
+          "actions": "Actions"
+        },
+        "view": "View"
+      },
+      "compliance_status": {
+        "concedus_100_release_uncompromising": "Release uncompromising",
+        "concedus_200_waiting_for_additional_documents": "Waiting for additional documents",
+        "concedus_300_rejected_aml_sanctions_pep": "Rejected aml sanctions pep",
+        "concedus_301_rejected_no_adequacy_final": "Rejected no adequacy final",
+        "concedus_302_rejected_process_data_error_fraud": "Rejected process data error fraud",
+        "concedus_303_rejected_other": "Rejected other",
+        "concedus_400_inquiry_asset_situation": "Inquiry asset situation",
+        "concedus_401_inquiry_other": "Inquiry other",
+        "concedus_402_missing_documents": "Missing documents",
+        "concedus_403_missing_adequacy_information": "Missing adequacy information",
+        "concedus_500_payment_expired": "Payment expired",
+        "concedus_501_payment_error_other": "Payment error other",
+        "concedus_502_payment_partial": "Payment partial",
+        "concedus_503_payment_full": "Payment full",
+        "concedus_600_payment_deadline_expired_7_days": "Payment deadline expired 7 days",
+        "concedus_601_payment_deadline_expired_14_days": "Payment deadline expired 14 days",
+        "concedus_602_payment_deadline_expired_20_days": "Payment deadline expired 20 days",
+        "concedus_700_cancellation_possible": "Cancellation possible",
+        "concedus_701_cancellation_not_possible_deadline": "Cancellation not possible deadline",
+        "concedus_702_cancellation_not_possible_other": "Cancellation not possible other",
+        "concedus_800_data_change_success": "Data change success",
+        "concedus_801_data_change_failed_data_error": "Data change failed data error",
+        "concedus_802_data_change_failed_other": "Data change failed other",
+        "concedus_compliance_error": "Compliance error",
+        "concedus_pending_compliance_review": "Pending compliance review"
+      },
+      "payment_status": {
+        "secupay_created": "Created",
+        "secupay_processing": "Processing",
+        "secupay_failed": "Failed",
+        "secupay_approved": "Approved",
+        "secupay_pending": "Pending",
+        "secupay_received": "Received",
+        "secupay_collection": "Collection",
+        "secupay_ok": "Ok",
+        "secupay_shipped": "Shipped",
+        "secupay_collected": "Collected",
+        "// secupay_authorization_error": "Authorization error"
+      }
+    },
+    "detail": {
+      "back": "Investments",
+      "title": "Investment Details",
+      "description": "View your investment details and payment information",
+      "summary": {
+        "title": "Investment Summary",
+        "project": "Project",
+        "investmentAmount": "Investment Amount",
+        "tokens": "Tokens",
+        "tokensCount": "{count} tokens",
+        "perToken": "per token",
+        "created": "Created",
+        "expectedReturn": "Expected Return",
+        "totalExpectedValue": "Total Expected Value"
+      },
+      "paymentInstructions": {
+        "title": "Payment Instructions",
+        "description": "Please make a bank transfer with the following details. Make sure to include the payment reference to ensure proper reconciliation.",
+        "bank": "Bank",
+        "accountName": "Account Name",
+        "iban": "IBAN",
+        "swift": "SWIFT/BIC",
+        "paymentReference": "Payment Reference",
+        "important": "Important: Include the payment reference",
+        "importantDescription": "Make sure to include the payment reference {reference} in your bank transfer. This is essential for us to match your payment with your investment.",
+        "payNow": "Pay Now"
+      },
+      "paymentReceived": {
+        "title": "Payment Received",
+        "description": "Your payment has been successfully received and processed."
+      },
+      "viewContract": "View Contract",
+      "viewingContract": "Loading...",
+      "contractSigning": {
+        "title": "Sign Investment Contract",
+        "description": "Before proceeding with payment, you need to review and sign the investment contract. By signing, you confirm that you have read and agree to the terms and conditions.",
+        "button": "Sign Contract"
+      },
+      "complianceReview": {
+        "title": "Under Compliance Review",
+        "description": "Your investment contract has been submitted and is currently under compliance review. This process typically takes 1-2 business days.",
+        "note": "You will be notified once the compliance review is complete and you can proceed with payment."
+      },
+      "rejection": {
+        "title": "Investment Rejected",
+        "description": "Your investment application has been rejected during the compliance review process.",
+        "note": "This decision was made based on regulatory requirements and compliance checks.",
+        "nextSteps": "Next Steps",
+        "step1": "Check your email for detailed information about the rejection",
+        "step2": "Contact support if you have questions or need clarification",
+        "step3": "You may be able to reapply after addressing the issues mentioned"
+      },
+      "payment": {
+        "title": "Complete Payment",
+        "retryTitle": "Retry Payment",
+        "amount": "Amount to Pay",
+        "selectMethod": "Select Payment Method",
+        "default": "Default",
+        "addNewAccount": "Add new bank account",
+        "iban": "IBAN",
+        "accountOwner": "Account Holder Name",
+        "directDebitInfo": "By clicking \"Pay Now\", you authorize a SEPA direct debit from your bank account. The amount will be debited within 1-3 business days.",
+        "payNow": "Pay Now",
+        "retryCapture": "Retry Payment Capture",
+        "processing": "Processing...",
+        "success": "Payment initiated successfully. You will be notified once the payment is confirmed.",
+        "errors": {
+          "missingBankDetails": "Please provide your bank account details"
+        }
+      },
+      "paymentProcessing": {
+        "title": "Payment Processing",
+        "description": "Your payment is being processed. This typically takes 1-3 business days. You will be notified once the payment is confirmed."
+      },
+      "paymentFailed": {
+        "title": "Payment Failed",
+        "description": "Unfortunately, your payment could not be processed. This may be due to insufficient funds or an invalid bank account. Please try again with a different payment method."
+      },
+      "paymentCaptureFailed": {
+        "title": "Payment Capture Failed",
+        "description": "We couldn't complete your payment, no charges were made. Please contact support for help.",
+        "description2": "Please click the button below to retry the payment capture."
+      }
+    }
+  }
+}

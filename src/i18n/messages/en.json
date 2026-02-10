@@ -1,0 +1,35 @@
+{
+  "modeToggle": {
+    "title": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "LocaleSwitcher": {
+    "title": "Language",
+    "label": "Change language",
+    "locale": "{locale, select, es {Español} en {English} de {Deutsch} other {Unknown}}",
+    "more": "More"
+  },
+  "footer": {
+    "legalNotice": "Imprint",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy",
+    "cookie": "Cookie",
+    "cookiePreferences": "Cookie preferences",
+    "text": "<strong>Warning:</strong> The acquisition of financial instruments is associated with considerable risks and can lead to the complete loss of the assets invested. The promised return is not guaranteed and may be lower.\n\n<strong>TokenKey Solutions Germany GmbH</strong> is a tied agent within the meaning of Section 3 (2) of the German Securities Trading Act (WplG) and acts exclusively on behalf of and under the liability of the securities firm Concedus GmbH, Nuremberg, when brokering financial instruments.\n\nMore about <concedus>CONCEDUS</concedus>.\n\nThe information on this page is provided solely by the issuer. CONCEDUS does not check this information, in particular the creditworthiness of the issuer. The BaFin register of tied agents is available at <link>https://portal.mvp.bafin.de/database/VGVInfo</link>"
+  },
+  "help": {
+    "faq": { "title": "Frequently Asked Questions (FAQ)" }
+  },
+  "intercom": {
+    "opener": "How it works"
+  },
+  "logout": "Logout",
+  "navbar": {
+    "howItWorks": "How it works",
+    "marketplace": "Marketplace",
+    "yourAccount": "Your account",
+    "startApp": "Start app"
+  }
+}

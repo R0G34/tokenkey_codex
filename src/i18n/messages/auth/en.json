@@ -1,0 +1,80 @@
+{
+  "auth": {
+    "layout": {
+      "text2": "Invest in the real estate business easily and safely from €100"
+    },
+    "UserAuthForm": {
+      "schema": {
+        "required_error": "Please enter your email address.",
+        "email": "The email address is invalid."
+      },
+      "alert": "To log in to TokenKey, please first agree to our Terms and Conditions and confirm that you have read our Privacy Policy by checking the box.",
+      "emailPlaceholder": "Email",
+      "alertEmailNotFound": "The email is not registered in TokenKey.",
+      "or": "Or",
+      "alertEmailAlreadyUsed": "The email is already registered in TokenKey."
+    },
+    "signInForm": {
+      "emailButton": "Sign in with Email",
+      "googleButton": "Sign in with Google"
+    },
+    "signUpForm": {
+      "emailButton": "Sign up with Email",
+      "googleButton": "Sign up with Google"
+    },
+    "verifyRequestPage": {
+      "title": "Verify your email",
+      "// text": "We've sent a verification code to your email address. Enter the code below to confirm your identity.",
+      "text": "We've sent a login link has to your email address. Please check your inbox to continue.",
+      "meta-title": "Verify Request"
+    },
+    "verifyOtpPage": {
+      "text": "We have sent you a code to {email}, please enter it below:",
+      "form": {
+        "errors": { "code": "Your code must be 8 characters." }
+      },
+      "toast": {
+        "success": "Data saved successfully",
+        "error": {
+          "title": "Oops! Something went wrong.",
+          "description": "This code has been used or has expired. Please request a new code."
+        }
+      },
+      "resend": {
+        "title": "Didn't receive the code?",
+        "submit": "Resend code",
+        "toast": {
+          "success": "We have sent a new code to your email",
+          "error": "We were unable to send a new code to your email"
+        }
+      },
+      "submit": "Verify code",
+      "title": "Verify Request"
+    },
+    "consent-privacy": "<p>I confirm that I have read the <privacy>privacy policies</privacy> of Tokenkey S.L and TokenKey GmbH, as well as the terms and conditions of the partners <concedus>Concedus GmbH</concedus>, and <nyala>Smart Registry GmbH</nyala> and consent to the processing of my personal data for exclusive use within the platform in accordance with the conditions described therein.</p>",
+    "consent": "<p>I confirm that I have read, understood and accepted TokenKey's <terms>General Terms and Conditions</terms> and understand that this service operates exclusively with the General Terms and Conditions of the partners TokenKey GmbH, <concedus>Condedus</concedus> and <nyala>Smart Registry GmbH</nyala>.</p><p>I agree that TokenKey may use my personal data for the purpose of information about products, services and events exclusively related to the platform.</p><p>I know that I can unsubscribe at any time using the contact information provided in the privacy policy.</p>",
+    "signOut": {
+      "toast": {
+        "success": "Data saved successfully",
+        "error": "Uh oh! Something went wrong."
+      }
+    },
+    "toast": {
+      "success": "Data saved successfully",
+      "error": "Uh oh! Something went wrong."
+    },
+    "errorPage": {
+      "cta": "Go to sign in"
+    },
+    "signInPage": {
+      "text": "New to TokenKey?",
+      "cta": "Create Account",
+      "title": "Sign In"
+    },
+    "signUpPage": {
+      "text": "Already have an account?",
+      "cta": "Sign In",
+      "title": "Sign Up"
+    }
+  }
+}

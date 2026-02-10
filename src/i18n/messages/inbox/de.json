@@ -1,0 +1,33 @@
+{
+  "inbox": {
+    "back": "Zurück",
+    "empty": {
+      "title": "Noch keine Nachrichten",
+      "description": "Ihr Posteingang ist leer. Sie erhalten hier wichtige Benachrichtigungen und Dokumente."
+    },
+    "detail": {
+      "noSelection": {
+        "title": "Keine Nachricht ausgewählt",
+        "description": "Wählen Sie eine Nachricht aus der Liste aus, um deren Details und Anhänge anzuzeigen."
+      },
+      "attachments": "Anhänge",
+      "noAttachments": "Keine Anhänge.",
+      "unread": "Ungelesen"
+    },
+    "legals": {
+      "title": "Rechtsdokumente für Ihre Investition",
+      "preview": "Bitte überprüfen Sie die beigefügten rechtlichen Dokumente, bevor Sie Ihre Investition bestätigen.",
+      "content": "Bitte prüfen Sie die folgenden rechtlichen Dokumente sorgfältig, bevor Sie Ihre Investition bestätigen. Diese Dokumente enthalten wichtige Informationen über die Risiken, Kosten und Bedingungen Ihrer Investition."
+    },
+    "documents": {
+      "securities-information-sheet": "Wertpapier-Informationsblatt",
+      "risk-information": "Risikoinformationen",
+      "cost-information": "Kosteninformationen",
+      "revocation-instruction": "Widerrufsbelehrung",
+      "egbgb-consumer-information": "EGBGB-Verbraucherinformationen",
+      "terms-of-use": "Nutzungsbedingungen",
+      "customer-information": "Kundeninformationen",
+      "data-protection-agreement": "Datenschutzvereinbarung"
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "investment": {
+    "minimumInvestment": "Mindestanlagebetrag",
+    "expectedReturn": "Erwartete Rendite",
+    "term": "Laufzeit",
+    "termValue": "{term, plural, one {# Monat} other {# Monate}}",
+    "apr": "APR",
+    "progress": "Investitionsfortschritt",
+    "progressShort": "Fortschritt",
+    "tokensSold": "{tokens} Token verkauft",
+    "remainingTokens": "{tokens} Token verbleibend",
+    "investmentCard": {
+      "investNow": "Jetzt investieren",
+      "expandInvestment": "Mehr investieren",
+      "investmentSummary": {
+        "title": "Ihre Investition",
+        "amountInvested": "Investierter Betrag",
+        "tokensAcquired": "Erworbene Token"
+      }
+    },
+    "dialog": {
+      "title": "In {name} investieren",
+      "description": "Erwartete Rendite",
+      "step1": {
+        "form": {
+          "amount": "Zu investierender Betrag",
+          "minimum": "Minimum",
+          "maximum": "Maximum",
+          "currentSold": "Ihr aktuelles Guthaben",
+          "currentInvestment": "Aktuelle Investitionen",
+          "investmentSummary": "Investitionsübersicht",
+          "investment": "Investition",
+          "expectedReturn": "Erwartete Rendite",
+          "errors": {
+            "min": "Der Betrag muss mindestens {minInvestment} betragen",
+            "max": "Der Betrag darf höchstens {maxInvestment} betragen",
+            "amount": "Der Betrag muss ein Vielfaches des Token-Preises sein"
+          },
+          "alert": {
+            "title": "Unzureichende Mittel",
+            "description": "Sie haben nicht genügend Mittel, um diese Investition zu tätigen",
+            "addFunds": "Guthaben hinzufügen",
+            "continue": "Fortfahren"
+          }
+        }
+      },
+      "step2": {
+        "title": "Ihre Investition bestätigen",
+        "subtitle": "Ihre Investition bestätigen",
+        "investmentText": "Sie sind dabei, {amount} {additional, selectordinal, one {zusätzlich } other {}}in dieses Projekt zu investieren. Sie erhalten {tokenCount, plural, one {# zusätzlichen Token} other {# zusätzliche Token}}",
+        "investmentTextNoOptin": "Sie sind dabei, {amount} in dieses Projekt zu investieren. Sie erhalten {tokenCount, plural, one {# Token} other {# Token}}",
+        "investmentProtected": "Ihre Investition ist geschützt und wird von der CNMV reguliert. Weitere Informationen zur Sicherheit Ihrer Investition in unserer <link>rechtlichen Dokumentation</link>",
+        "formCommon": {
+          "intro": "Wir haben Ihnen soeben die folgenden Dokumente an Ihren Posteingang gesendet. Bitte lesen Sie diese sorgfältig durch. Durch Klicken auf \"Weiter\" bestätigen Sie, dass Ihre persönlichen Daten korrekt sind. Sie alle Unterlagen erhalten und gelesen haben, und Sie den Vertragsbedingungen zustimmen.",
+          "confirmMonthlyIncome": "Ich bestätige, dass der Betrag meiner Investition nicht das Zweifache meines durchschnittlichen monatlichen Nettoeinkommens übersteigt",
+          "buttons": {
+            "back": "Zurück",
+            "submit": "Weiter",
+            "pending": "Wird verarbeitet..."
+          }
+        },
+        "form1000": {
+          "p1": "Laut den Ergebnissen unserer Prüfung sind Ihre Kenntnisse oder Erfahrungen nicht ausreichend, um die mit einer Investition in dieses Finanzinstrument verbundenen Risiken zu bewerten. Daher erscheint eine Investition nicht geeignet. Nach Kenntnisnahme und Bestätigung dieser Warnung können Sie jedoch mit dem Zeichnen fortfahren und eine Investition in das Finanzinstrument tätigen. Durch Klicken auf \"Weiter\" bestätigen Sie, dass Sie diese Warnung zur Kenntnis genommen haben",
+          "p2": "Um mit Ihrer Investition fortzufahren, müssen Sie mindestens eine der folgenden zwei Aussagen bestätigen. Bitte antworten Sie wahrheitsgemäß",
+          "confirmAsset": "Ich bestätige, dass ich frei verfügbare Vermögenswerte in Form von Bankeinlagen und Finanzinstrumenten in Höhe von mindestens {amount} besitze",
+          "error": "Sie müssen mindestens eine der Optionen auswählen"
+        },
+        "form10000": {
+          "p1": "Wir verfügen nicht über alle angeforderten Informationen, um zu beurteilen, ob Sie die mit einer Investition in dieses Finanzinstrument verbundenen Risiken bewerten können. In diesem Zusammenhang können wir keinen Eignungstest durchführen, d.h. ob eine Investition ungeeignet sein könnte. Nach Kenntnisnahme und Bestätigung dieser Warnung können Sie mit dem Zeichnen fortfahren und eine Investition in das Finanzinstrument tätigen. Durch Klicken auf \"Weiter\" bestätigen Sie, dass Sie diese Warnung zur Kenntnis genommen haben",
+          "error": "Sie müssen diese Option auswählen"
+        },
+        "form25000": {}
+      },
+      "step3": {
+        "title": "Zahlung autorisieren",
+        "amount": "Zu autorisierender Betrag",
+        "selectMethod": "Zahlungsmethode auswählen",
+        "default": "Standard",
+        "addNewAccount": "Neues Bankkonto hinzufügen",
+        "iban": "IBAN",
+        "accountOwner": "Kontoinhaber",
+        "directDebitInfo": "Mit Klick auf \"Autorisieren & Investieren\" autorisieren Sie eine SEPA-Lastschrift von Ihrem Bankkonto. Die Zahlung wird automatisch nach der Compliance-Prüfung eingezogen.",
+        "authorizeAndInvest": "Autorisieren & Investieren",
+        "authorizing": "Wird autorisiert...",
+        "success": "Investition erfolgreich erstellt! Ihre Zahlung ist autorisiert und wird nach der Compliance-Genehmigung eingezogen.",
+        "errors": {
+          "missingBankDetails": "Bitte geben Sie Ihre Bankdaten an"
+        }
+      }
+    },
+    "errors": {
+      "missing-kyc": "Sie müssen den Identitätsprüfungsprozess abschließen, bevor Sie bei uns investieren können",
+      "already-invested": "Mehrere Investitionen für dasselbe Projekt sind nicht zulässig.",
+      "already-has-order": "Sie haben bereits eine Bestellung für dieses Projekt. Es ist nur eine Bestellung pro Projekt erlaubt."
+    },
+    "warning": "<strong>Warnhinweis:</strong> Der Erwerb dieses Wertpapiers ist mit erheblichen Risiken verbunden und kann zum vollständigen Verlust des eingesetzten Vermögens führen. Der in Aussicht gestellte Ertrag ist nicht gewährleistet und kann auch niedriger ausfallen.",
+    "list": {
+      "title": "Meine Investitionen",
+      "description": "Alle Ihre Investitionen ansehen und verwalten",
+      "empty": {
+        "title": "Noch keine Investitionen",
+        "description": "Sie haben noch keine Investitionen getätigt. Durchsuchen Sie unsere Projekte, um loszulegen.",
+        "cta": "Projekte durchsuchen"
+      },
+      "table": {
+        "title": "Ihre Investitionen",
+        "headers": {
+          "project": "Projekt",
+          "amount": "Betrag",
+          "paymentReference": "Zahlungsreferenz",
+          "compliancestatus": "Compliance-Status",
+          "paymentstatus": "Zahlungsstatus",
+          "date": "Datum",
+          "actions": "Aktionen"
+        },
+        "view": "Ansehen"
+      },
+      "compliance_status": {
+        "concedus_100_release_uncompromising": "Freigabe ohne Einschränkungen",
+        "concedus_200_waiting_for_additional_documents": "Warten auf zusätzliche Dokumente",
+        "concedus_300_rejected_aml_sanctions_pep": "Abgelehnt wegen AML, Sanktionen oder PEP",
+        "concedus_301_rejected_no_adequacy_final": "Abgelehnt wegen fehlender Angemessenheit (final)",
+        "concedus_302_rejected_process_data_error_fraud": "Abgelehnt wegen Verfahrensdatenfehler oder Betrug",
+        "concedus_303_rejected_other": "Aus anderen Gründen abgelehnt",
+        "concedus_400_inquiry_asset_situation": "Anfrage zur Vermögenssituation",
+        "concedus_401_inquiry_other": "Sonstige Anfrage",
+        "concedus_402_missing_documents": "Fehlende Dokumente",
+        "concedus_403_missing_adequacy_information": "Fehlende Angemessenheitsinformationen",
+        "concedus_500_payment_expired": "Zahlung abgelaufen",
+        "concedus_501_payment_error_other": "Zahlungsfehler (sonstige)",
+        "concedus_502_payment_partial": "Teilzahlung",
+        "concedus_503_payment_full": "Vollständige Zahlung",
+        "concedus_600_payment_deadline_expired_7_days": "Zahlungsfrist um 7 Tage überschritten",
+        "concedus_601_payment_deadline_expired_14_days": "Zahlungsfrist um 14 Tage überschritten",
+        "concedus_602_payment_deadline_expired_20_days": "Zahlungsfrist um 20 Tage überschritten",
+        "concedus_700_cancellation_possible": "Stornierung möglich",
+        "concedus_701_cancellation_not_possible_deadline": "Stornierung aufgrund Frist nicht möglich",
+        "concedus_702_cancellation_not_possible_other": "Stornierung aus anderen Gründen nicht möglich",
+        "concedus_800_data_change_success": "Datenänderung erfolgreich",
+        "concedus_801_data_change_failed_data_error": "Datenänderung wegen Datenfehler fehlgeschlagen",
+        "concedus_802_data_change_failed_other": "Datenänderung aus anderen Gründen fehlgeschlagen",
+        "concedus_compliance_error": "Compliance-Fehler",
+        "concedus_pending_compliance_review": "Ausstehende Compliance-Prüfung"
+      },
+      "payment_status": {
+        "secupay_created": "Erstellt",
+        "secupay_processing": "In Bearbeitung",
+        "secupay_failed": "Fehlgeschlagen",
+        "secupay_approved": "Genehmigt",
+        "secupay_pending": "Ausstehend",
+        "secupay_received": "Erhalten",
+        "secupay_collection": "Im Inkasso",
+        "secupay_ok": "OK",
+        "secupay_shipped": "Versendet",
+        "secupay_collected": "Eingezogen",
+        "// secupay_authorization_error": "Autorisierungsfehler"
+      }
+    },
+    "detail": {
+      "back": "Investitionen",
+      "title": "Investitionsdetails",
+      "description": "Ihre Investitionsdetails und Zahlungsinformationen anzeigen",
+      "summary": {
+        "title": "Investitionszusammenfassung",
+        "project": "Projekt",
+        "investmentAmount": "Investitionsbetrag",
+        "tokens": "Tokens",
+        "tokensCount": "{count} Tokens",
+        "perToken": "pro Token",
+        "created": "Erstellt",
+        "expectedReturn": "Erwartete Rendite",
+        "totalExpectedValue": "Erwarteter Gesamtwert"
+      },
+      "paymentInstructions": {
+        "title": "Zahlungsanweisungen",
+        "description": "Bitte führen Sie eine Banküberweisung mit den folgenden Details durch. Stellen Sie sicher, dass Sie die Zahlungsreferenz angeben, um eine ordnungsgemäße Zuordnung zu gewährleisten.",
+        "bank": "Bank",
+        "accountName": "Kontoname",
+        "iban": "IBAN",
+        "swift": "SWIFT/BIC",
+        "paymentReference": "Zahlungsreferenz",
+        "important": "Wichtig: Zahlungsreferenz angeben",
+        "importantDescription": "Stellen Sie sicher, dass Sie die Zahlungsreferenz {reference} in Ihrer Banküberweisung angeben. Dies ist wichtig, damit wir Ihre Zahlung mit Ihrer Investition abgleichen können.",
+        "payNow": "Jetzt Bezahlen"
+      },
+      "paymentReceived": {
+        "title": "Zahlung erhalten",
+        "description": "Ihre Zahlung wurde erfolgreich empfangen und verarbeitet."
+      },
+      "viewContract": "Vertrag ansehen",
+      "viewingContract": "Lädt...",
+      "contractSigning": {
+        "title": "Investitionsvertrag unterzeichnen",
+        "description": "Bevor Sie mit der Zahlung fortfahren, müssen Sie den Investitionsvertrag prüfen und unterzeichnen. Mit der Unterzeichnung bestätigen Sie, dass Sie die Geschäftsbedingungen gelesen haben und diesen zustimmen.",
+        "button": "Vertrag unterzeichnen"
+      },
+      "complianceReview": {
+        "title": "In Compliance-Prüfung",
+        "description": "Ihr Investitionsvertrag wurde eingereicht und befindet sich derzeit in der Compliance-Prüfung. Dieser Vorgang dauert normalerweise 1-2 Werktage.",
+        "note": "Sie werden benachrichtigt, sobald die Compliance-Prüfung abgeschlossen ist und Sie mit der Zahlung fortfahren können."
+      },
+      "rejection": {
+        "title": "Investition abgelehnt",
+        "description": "Ihre Investitionsanfrage wurde während des Compliance-Prüfungsprozesses abgelehnt.",
+        "note": "Diese Entscheidung wurde auf Grundlage regulatorischer Anforderungen und Compliance-Prüfungen getroffen.",
+        "nextSteps": "Nächste Schritte",
+        "step1": "Überprüfen Sie Ihre E-Mails für detaillierte Informationen zur Ablehnung",
+        "step2": "Kontaktieren Sie den Support, wenn Sie Fragen haben oder Klärung benötigen",
+        "step3": "Sie können sich möglicherweise erneut bewerben, nachdem Sie die genannten Probleme behoben haben"
+      },
+      "payment": {
+        "title": "Zahlung abschließen",
+        "retryTitle": "Zahlung erneut versuchen",
+        "amount": "Zu zahlender Betrag",
+        "selectMethod": "Zahlungsmethode auswählen",
+        "default": "Standard",
+        "addNewAccount": "Neues Bankkonto hinzufügen",
+        "iban": "IBAN",
+        "accountOwner": "Kontoinhaber",
+        "directDebitInfo": "Mit Klick auf \"Jetzt bezahlen\" autorisieren Sie eine SEPA-Lastschrift von Ihrem Bankkonto. Der Betrag wird innerhalb von 1-3 Werktagen abgebucht.",
+        "payNow": "Jetzt bezahlen",
+        "retryCapture": "Zahlungseinzug erneut versuchen",
+        "processing": "Wird verarbeitet...",
+        "success": "Zahlung erfolgreich initiiert. Sie werden benachrichtigt, sobald die Zahlung bestätigt ist.",
+        "errors": {
+          "missingBankDetails": "Bitte geben Sie Ihre Bankdaten an"
+        }
+      },
+      "paymentProcessing": {
+        "title": "Zahlung wird verarbeitet",
+        "description": "Ihre Zahlung wird verarbeitet. Dies dauert in der Regel 1-3 Werktage. Sie werden benachrichtigt, sobald die Zahlung bestätigt ist."
+      },
+      "paymentFailed": {
+        "title": "Zahlung fehlgeschlagen",
+        "description": "Leider konnte Ihre Zahlung nicht verarbeitet werden. Dies kann an unzureichendem Guthaben oder einem ungültigen Bankkonto liegen. Bitte versuchen Sie es mit einer anderen Zahlungsmethode erneut."
+      },
+      "paymentCaptureFailed": {
+        "title": "Zahlungseinzug fehlgeschlagen",
+        "description": "Wir konnten deine Zahlung nicht abschließen. Es wurden keine Kosten berechnet. Bitte kontaktiere den Support.",
+        "description2": "Bitte klicken Sie auf die Schaltfläche unten, um den Zahlungseinzug erneut zu versuchen."
+      }
+    }
+  }
+}

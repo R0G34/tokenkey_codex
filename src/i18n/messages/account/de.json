@@ -1,0 +1,156 @@
+{
+  "account": {
+    "title": "Kontoeinstellungen",
+    "description": "Verwalten Sie Ihre Kontoinformationen und Einstellungen",
+    "editButton": "Bearbeiten",
+    "editPage": {
+      "title": "Konto bearbeiten",
+      "description": "Aktualisieren Sie Ihre persönlichen Daten",
+      "cancelButton": "Abbrechen",
+      "saveButton": "Änderungen speichern"
+    },
+    "editExperience": {
+      "title": "Erfahrung bearbeiten",
+      "description": "Aktualisieren Sie Ihre Anlageerfahrung und Wissensbewertung",
+      "cardTitle": "Bewertung der Anlageerfahrung",
+      "cardDescription": "Um Ihre Anlageerfahrung zu aktualisieren, müssen Sie den Erfahrungsfragebogen erneut ausfüllen. Dies ersetzt Ihre aktuelle Bewertung.",
+      "startButton": "Bewertung starten"
+    },
+    "accountOverview": {
+      "title": "Kontoübersicht",
+      "email": "E-Mail",
+      "memberSince": "Mitglied seit",
+      "accountCreated": "Konto erstellt",
+      "userType": "Kontotyp",
+      "userTypeCustomer": "Kunde",
+      "userTypeCompany": "Unternehmen"
+    },
+    "companyInfo": {
+      "title": "Unternehmensinformationen",
+      "name": "Firmenname",
+      "legalForm": "Rechtsform",
+      "foundingDate": "Gründungsdatum",
+      "registryNo": "Registernummer",
+      "registryNumber": "Handelsregisternummer",
+      "registryCourt": "Registergericht",
+      "taxId": "Steuernummer",
+      "address": "Firmenadresse",
+      "naturalPerson": "Natürliche Person",
+      "legalPerson": "Juristische Person",
+      "isPep": "Politisch exponierte Person (PEP)",
+      "isFictitiousUbo": "Fiktiver wirtschaftlich Berechtigter"
+    },
+    "companyRoles": {
+      "title": "Unternehmensrollen & Eigentum",
+      "rolesTitle": "Ihre Rolle im Unternehmen",
+      "representative": "Vertreter / Gesetzlicher Vertreter",
+      "fictitiousBeneficialOwner": "Fiktiver wirtschaftlich Berechtigter",
+      "authorizedBeneficialOwner": "Autorisierter wirtschaftlich Berechtigter",
+      "capitalShares": "Kapitalanteile",
+      "votingRights": "Stimmrechte",
+      "powerOfAttorney": "Vollmacht"
+    },
+    "representatives": {
+      "title": "Vertreter"
+    },
+    "beneficialOwners": {
+      "title": "Wirtschaftlich Berechtigte"
+    },
+    "uboAml": {
+      "title": "UBO & AML",
+      "description": "Dokumentation zur Einhaltung der Vorschriften zu wirtschaftlich Berechtigten und Geldwäschebekämpfung."
+    },
+    "bankInfo": {
+      "title": "Bankkonto",
+      "holder": "Kontoinhaber",
+      "bank": "Bankname",
+      "iban": "IBAN",
+      "swift": "SWIFT/BIC",
+      "location": "Bankstandort",
+      "currency": "Währung",
+      "noAccount": "Noch kein Bankkonto hinzugefügt. Klicken Sie auf Bearbeiten, um eines hinzuzufügen.",
+      "otherAccounts": "{count, plural, one {+# weiteres Konto} other {+# weitere Konten}}"
+    },
+    "bankAccounts": {
+      "title": "Bankkonten",
+      "description": "Verwalten Sie Ihre Bankkonten für Zahlungen",
+      "listTitle": "Ihre Bankkonten",
+      "addAccount": "Konto hinzufügen",
+      "noAccounts": "Noch keine Bankkonten hinzugefügt. Fügen Sie eines hinzu, um zu beginnen.",
+      "default": "Standard",
+      "setDefault": "Als Standard festlegen",
+      "defaultSuccess": "Bankkonto als Standard festgelegt",
+      "deleteSuccess": "Bankkonto gelöscht",
+      "addSuccess": "Bankkonto hinzugefügt",
+      "form": {
+        "title": "Bankkonto hinzufügen",
+        "description": "Geben Sie unten Ihre Bankkontodaten ein",
+        "iban": "IBAN",
+        "holder": "Name des Kontoinhabers",
+        "bank": "Bankname",
+        "swift": "SWIFT/BIC",
+        "setAsDefault": "Als Standard festlegen",
+        "setAsDefaultDescription": "Dieses Konto für zukünftige Zahlungen verwenden",
+        "cancel": "Abbrechen",
+        "add": "Konto hinzufügen",
+        "adding": "Wird hinzugefügt...",
+        "errors": {
+          "required": "IBAN und Kontoinhaber sind erforderlich"
+        }
+      }
+    },
+    "experience": {
+      "title": "Anlageerfahrung",
+      "consent": "Einwilligung",
+      "score": "Erfahrungswert",
+      "riskConsent": "Risikoanerkennung",
+      "professional": "Professioneller Anleger",
+      "knowledge": "Wissensbewertung",
+      "yes": "Ja",
+      "no": "Nein",
+      "completed": "Abgeschlossen",
+      "notCompleted": "Nicht abgeschlossen",
+      "answers": "Antworten",
+      "investmentExperience": "Anlageerfahrung",
+      "requirementsMet": "Erfüllte Anforderungen"
+    },
+    "personalInfo": {
+      "title": "Persönliche Informationen",
+      "description": "Aktualisieren Sie Ihre persönlichen Daten",
+      "legend": "Persönliche Informationen",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "birthDate": "Geburtsdatum",
+      "birthplace": "Geburtsort",
+      "pickADate": "Wählen Sie ein Datum",
+      "placeOfBirth": "Geburtsort",
+      "nationality": "Nationalität",
+      "phoneNumber": "Telefonnummer",
+      "kycStatus": "KYC-Verifizierung",
+      "kycVerified": "Verifiziert",
+      "kycPending": "Ausstehend",
+      "pepStatus": "PEP-Status",
+      "isPep": "Ja",
+      "notPep": "Nein",
+      "gender": "Geschlecht",
+      "genderMale": "Männlich",
+      "genderFemale": "Weiblich",
+      "genderOther": "Andere",
+      "salutation": "Anrede",
+      "saveButton": "Änderungen speichern"
+    },
+    "address": {
+      "title": "Adresse",
+      "legend": "Adresse",
+      "street": "Straße",
+      "streetNumber": "Hausnummer",
+      "postcode": "Postleitzahl",
+      "city": "Stadt",
+      "country": "Land"
+    },
+    "messages": {
+      "saveSuccess": "Kontoinformationen erfolgreich aktualisiert",
+      "saveError": "Fehler beim Aktualisieren der Kontoinformationen"
+    }
+  }
+}

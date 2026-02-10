@@ -1,0 +1,3 @@
+.husky/check-folder-names-and-filenames.sh
+bun typecheck
+bun lint

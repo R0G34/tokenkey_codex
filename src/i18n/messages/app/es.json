@@ -1,0 +1,19 @@
+{
+  "app": {
+    "sidebar": {
+      "gettingStarted": "Primeros pasos",
+      "onboarding": "Incorporación",
+      "projects": "Proyectos",
+      "investments": "Inversiones",
+      "portfolio": "Cartera",
+      "cryptowallet": "Criptowallet",
+      "inbox": "Inbox",
+      "personalData": "Información personal",
+      "account": "Cuenta",
+      "notifications": "Notificaciones",
+      "settings": {
+        "title": "Ajustes"
+      }
+    }
+  }
+}

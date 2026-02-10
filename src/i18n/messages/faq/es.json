@@ -1,0 +1,71 @@
+{
+  "faq": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "¿Qué es TokenKey Solutions y cómo funciona el modelo de inversión?",
+        "answer": "TokenKey Solutions es una empresa especializada en la tokenización de activos inmobiliarios en España. Compramos bienes inmuebles sin terminar, completamos su construcción y los vendemos. Para financiar estas actividades, emitimos Security Tokens (tokens de seguridad) que representan inversiones vinculadas a proyectos inmobiliarios específicos. Al invertir en nuestros tokens, los inversores participan indirectamente en el mercado inmobiliario y obtienen una rentabilidad fija en forma de un cupón al final del periodo de inversión, generalmente de un año."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué es un Security Token y cómo se relaciona con los inmuebles?",
+        "answer": "Un Security Token es un activo digital que representa una participación en un proyecto de TokenKey. Cada emisión de tokens está asociada con la adquisición, construcción y venta de inmuebles en España. El dinero recaudado a través de los tokens se utiliza directamente para financiar los proyectos inmobiliarios. Al final del periodo de inversión, los tokens se redimen al valor nominal y los inversores reciben un cupón fijo."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué seguridad ofrece TokenKey a los inversores?",
+        "answer": "Los Security Tokens de TokenKey son obligaciones no subordinadas y no están garantizadas directamente por los activos inmobiliarios subyacentes. Sin embargo, se emiten de acuerdo con la ley alemana bajo la Ley de Valores Electrónicos (eWpG) y están registrados en una plataforma blockchain que garantiza la seguridad de las transacciones y el registro de propiedad. Además, los pagos se realizan fuera de la cadena de bloques (off-chain) para garantizar transparencia en la liquidación."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué beneficio obtengo al invertir en TokenKey?",
+        "answer": "Los inversores reciben un retorno fijo en forma de un cupón al final del periodo de inversión, que generalmente es de un año. Este retorno no depende directamente de la venta del inmueble, lo que proporciona a los inversores una mayor estabilidad en su inversión. Al final del periodo, los tokens se redimen al valor nominal, y los inversores recuperan el capital invertido junto con el cupón."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué riesgos existen al invertir en Security Tokens de TokenKey?",
+        "answer": "Como cualquier inversión, existen riesgos asociados. Aunque TokenKey posee el 100% de los inmuebles que financia y los proyectos están respaldados por activos reales, los Security Tokens no están garantizados directamente por esos bienes inmuebles. Además, como los tokens se emiten y registran en una plataforma blockchain, existe el riesgo inherente a la tecnología blockchain, como posibles ataques cibernéticos o fallos en la tecnología subyacente. Sin embargo, hemos implementado medidas rigurosas para minimizar estos riesgos y asegurar la integridad del registro."
+      },
+      {
+        "id": 6,
+        "question": "¿Cómo puedo asegurarme de que mi inversión está protegida?",
+        "answer": "Utilizamos una plataforma blockchain registrada bajo la Ley de Valores Electrónicos de Alemania (eWpG), lo que garantiza que los Security Tokens están debidamente registrados y protegidos contra modificaciones no autorizadas. Además, todos los inversores pasan por un proceso de verificación KYC (Conoce a tu Cliente) gestionado por El Emisor Alemán Regulado, un distribuidor licenciado y regulado en la UE. Estos procedimientos cumplen con las normativas de prevención de lavado de dinero y fraude."
+      },
+      {
+        "id": 7,
+        "question": "¿Cómo puedo invertir en los Security Tokens de TokenKey?",
+        "answer": "Para invertir, lo puedes hacer mediante nuestra web, que a su vez pasará todos los datos a El Emisor Alemán Regulado, nuestro distribuidor exclusivo, que gestionará todo el proceso de inversión. Los inversores deben cumplir con los requisitos de verificación de identidad (KYC) y, una vez aprobados, podrán adquirir los tokens de la emisión correspondiente. Concedus también proporciona asesoramiento personalizado para garantizar que la inversión se ajuste a tus necesidades financieras."
+      },
+      {
+        "id": 8,
+        "question": "¿Cómo y cuándo recibiré mis ganancias?",
+        "answer": "Al final del periodo de inversión, que suele durar un año, TokenKey redime los Security Tokens a su valor nominal. Además, los inversores reciben un cupón fijo. Los pagos se realizan fuera de la cadena de bloques (off-chain) directamente a la cuenta del inversor."
+      },
+      {
+        "id": 9,
+        "question": "¿Cómo puedo seguir el progreso de los proyectos en los que estoy invirtiendo?",
+        "answer": "TokenKey proporciona informes periódicos sobre el avance de los proyectos inmobiliarios. Además, la plataforma blockchain utilizada para registrar los Security Tokens permite a los inversores verificar la propiedad de sus tokens en cualquier momento. Proporcionaremos acceso a actualizaciones relevantes sobre el estado de las construcciones y las ventas de los inmuebles."
+      },
+      {
+        "id": 10,
+        "question": "¿Es necesario tener experiencia en tecnología blockchain para invertir?",
+        "answer": "No. Aunque utilizamos la tecnología blockchain para emitir y gestionar los Security Tokens, los inversores no necesitan conocimientos técnicos avanzados para participar. Nuestro distribuidor, El Emisor Alemán Regulado, se encarga de todos los aspectos técnicos relacionados con la emisión y adquisición de los tokens. Los inversores solo necesitan pasar por el proceso de verificación y pueden seguir el progreso de su inversión a través de informes regulares."
+      },
+      {
+        "id": 11,
+        "question": "¿Cuál es el marco regulatorio que rige los Security Tokens de TokenKey?",
+        "answer": "Los Security Tokens se emiten bajo la legislación alemana de valores electrónicos (eWpG). Esto garantiza que los tokens cumplen con los más altos estándares de seguridad y transparencia, y que la emisión de los mismos está sujeta a la supervisión regulatoria de BaFin, la autoridad de supervisión financiera de Alemania."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuáles son los requisitos mínimos para invertir en TokenKey?",
+        "answer": "Los requisitos mínimos pueden variar según la emisión específica de tokens. Por lo general, nuestros tokens están disponibles para inversores tanto institucionales como minoristas, sujetos a un proceso de verificación. El importe mínimo de inversión será determinado por cada emisión y puede consultarse a través de nuestro distribuidor El Emisor Alemán Regulado. La tokenización está pensada para permitir inversiones a partir de un monto muy pequeño, como 100€ por token."
+      },
+      {
+        "id": 13,
+        "question": "¿Los Security Tokens están disponibles para ser negociados en mercados secundarios?",
+        "answer": "No, los Security Tokens emitidos por TokenKey no están admitidos para negociación en mercados secundarios regulados, como las bolsas de valores. Sin embargo, los inversores reciben su retorno a través de la redención de los tokens por parte de TokenKey al final del periodo de inversión. Bajo determinadas circunstancias, es posible negociar con TokenKey la redención anticipada."
+      }
+    ]
+  }
+}
